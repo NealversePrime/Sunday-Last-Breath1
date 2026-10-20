@@ -12,7 +12,7 @@
     <div class="main-menu-content">
         
         <!-- LOGO & SUBTITLE -->
-        <img src="image/title_logo.gif" class="main-title-logo">
+        <img src="image/title_logo.webp" class="main-title-logo">
         <div class="main-subtitle">
             <span style="color: var(--accent-gold); font-weight: bold;">PART I : DAY ZERO</span> <br>
         "The world ends today. Survival starts tomorrow."

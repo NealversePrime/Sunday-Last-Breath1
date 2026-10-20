@@ -55,7 +55,7 @@
         </div>
 
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-            <img src="image/Act3/substation_exterior.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+            <img src="image/Act3/substation_exterior.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
         </div>
 
         <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -82,41 +82,41 @@
                                 <<if _hasVane and _hasMaya>>
                                     Vane cuts the ignition, his hands trembling slightly on the steering wheel as he stares through the rain at the bloodstained cruiser doors. In the backseat, Maya gathers seven-year-old Lily against her chest, turning the little girl's head into her jacket so she won't see the bodies outside.
                                     <br><br>
-                                    <<chat "Maya" "image/avatars/maya.gif" "right" "God... not even the police? They had body armor, rifles, radios... what could have done this to them in just one night? If an entire squad of deputies couldn't hold their own station, what are we supposed to do?">>
+                                    <<chat "Maya" "image/avatars/maya.webp" "right" "God... not even the police? They had body armor, rifles, radios... what could have done this to them in just one night? If an entire squad of deputies couldn't hold their own station, what are we supposed to do?">>
                                     <br>
-                                    <<chat "Vane" "image/avatars/vane.gif" "right" "Listen to that humming sound around the side. That's a generator. If there's power, maybe the desk computer or an emergency radio is still on... maybe someone left an evac notice or a frequency we can tune into. But look at those front doors. Whatever attacked them tore right through the glass.">>
+                                    <<chat "Vane" "image/avatars/vane.webp" "right" "Listen to that humming sound around the side. That's a generator. If there's power, maybe the desk computer or an emergency radio is still on... maybe someone left an evac notice or a frequency we can tune into. But look at those front doors. Whatever attacked them tore right through the glass.">>
                                     <br>
-                                    <<chat "You" "image/avatars/player.gif" "left" "Maya, keep Lily down in the footwell and keep the doors locked. Vane, watch my back. If anything goes wrong—if you hear screams or gunshots—don't wait for me. Hit the gas and get the hell out of here.">>
+                                    <<chat "You" "image/avatars/player.webp" "left" "Maya, keep Lily down in the footwell and keep the doors locked. Vane, watch my back. If anything goes wrong—if you hear screams or gunshots—don't wait for me. Hit the gas and get the hell out of here.">>
 
                                 <<elseif _hasVane and _hasDiane>>
                                     Vane kills the engine. In the back, Diane's hands rest tightly on the shoulders of her two boys. She stares out at the bullet-pocked brick with a cold, protective glare.
                                     <br><br>
-                                    <<chat "Diane" "image/avatars/diane.gif" "right" "Look at those dead officers by the steps. If a dozen armed cops couldn't survive the night in a reinforced concrete bunker, whatever did this isn't human. We shouldn't be here. We should keep driving.">>
+                                    <<chat "Diane" "image/avatars/diane.webp" "right" "Look at those dead officers by the steps. If a dozen armed cops couldn't survive the night in a reinforced concrete bunker, whatever did this isn't human. We shouldn't be here. We should keep driving.">>
                                     <br>
-                                    <<chat "Vane" "image/avatars/vane.gif" "right" "Diane, we're almost out of options. We don't even know where the military checkpoint is. That generator is still running—there might be an emergency log or a map on the desk inside before the fuel runs dry.">>
+                                    <<chat "Vane" "image/avatars/vane.webp" "right" "Diane, we're almost out of options. We don't even know where the military checkpoint is. That generator is still running—there might be an emergency log or a map on the desk inside before the fuel runs dry.">>
                                     <br>
-                                    <<chat "You" "image/avatars/player.gif" "left" "Diane, stay with the boys. Keep the car in drive. If you hear anything go bad inside, step on the gas. We'll be as fast as we can.">>
+                                    <<chat "You" "image/avatars/player.webp" "left" "Diane, stay with the boys. Keep the car in drive. If you hear anything go bad inside, step on the gas. We'll be as fast as we can.">>
 
                                 <<elseif _hasVane>>
                                     Vane leans over the dashboard, his eyes wide as he clutches his Pelican camera case against his knees like a shield.
                                     <br><br>
-                                    <<chat "Vane" "image/avatars/vane.gif" "right" "The front entrance is completely blocked by corpses and broken furniture. But look at the utility box on the side—the generator is humming. If the power's on, maybe their emergency dispatch terminal has information about where survivors are being sent.">>
+                                    <<chat "Vane" "image/avatars/vane.webp" "right" "The front entrance is completely blocked by corpses and broken furniture. But look at the utility box on the side—the generator is humming. If the power's on, maybe their emergency dispatch terminal has information about where survivors are being sent.">>
                                     <br>
-                                    <<chat "You" "image/avatars/player.gif" "left" "We can't use the front doors. We'll have to find a way in through the rear maintenance fence. Stay quiet, keep low.">>
+                                    <<chat "You" "image/avatars/player.webp" "left" "We can't use the front doors. We'll have to find a way in through the rear maintenance fence. Stay quiet, keep low.">>
 
                                 <<elseif _hasMaya>>
                                     Maya's voice comes from the rear seat—a hushed, terrified whisper so as not to panic Lily.
                                     <br><br>
-                                    <<chat "Maya" "image/avatars/maya.gif" "right" "Look at the bullet holes in the walls... they were shooting wildly in the dark. It looks like a slaughterhouse. Please be careful in there... Lily and I can't do this alone if something happens to you.">>
+                                    <<chat "Maya" "image/avatars/maya.webp" "right" "Look at the bullet holes in the walls... they were shooting wildly in the dark. It looks like a slaughterhouse. Please be careful in there... Lily and I can't do this alone if something happens to you.">>
                                     <br>
-                                    <<chat "You" "image/avatars/player.gif" "left" "I'll just grab what we need and come right back. Keep the doors locked. If you see anything move outside, stay down.">>
+                                    <<chat "You" "image/avatars/player.webp" "left" "I'll just grab what we need and come right back. Keep the doors locked. If you see anything move outside, stay down.">>
 
                                 <<elseif _hasDiane>>
                                     Diane looks at the blood smeared across the cruiser windshields, her face pale but resolute.
                                     <br><br>
-                                    <<chat "Diane" "image/avatars/diane.gif" "right" "The emergency alert went out only hours ago, and this town is already tearing itself apart. Don't be a hero in there. Get the supplies and get back out. My boys need living allies.">>
+                                    <<chat "Diane" "image/avatars/diane.webp" "right" "The emergency alert went out only hours ago, and this town is already tearing itself apart. Don't be a hero in there. Get the supplies and get back out. My boys need living allies.">>
                                     <br>
-                                    <<chat "You" "image/avatars/player.gif" "left" "Understood. I won't take any dumb risks.">>
+                                    <<chat "You" "image/avatars/player.webp" "left" "Understood. I won't take any dumb risks.">>
 
                                 <<else>>
                                     You sit in the driver's seat as the engine ticks cool. 
@@ -154,7 +154,7 @@
         </div>
 
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-            <img src="image/Act3/substation_exterior.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+            <img src="image/Act3/substation_exterior.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
         </div>
 
         <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -470,7 +470,7 @@
                 <<if _hasVane>>
                     You push through the back door and drop the interior security bolt into place. Vane leans against the concrete wall, clutching his chest and panting in the dim red emergency light.
                     <br><br>
-                    <<chat "Vane" "image/avatars/vane.gif" "right" "The air in here smells like burnt gunpowder and copper... Look down the hall. That's the booking desk and the evidence lockers. Let's see if anyone left a radio log or supplies before whatever happened here happened.">>
+                    <<chat "Vane" "image/avatars/vane.webp" "right" "The air in here smells like burnt gunpowder and copper... Look down the hall. That's the booking desk and the evidence lockers. Let's see if anyone left a radio log or supplies before whatever happened here happened.">>
                 <<else>>
                     You slip inside the rear corridor and pause, listening to the echoing silence.
                     <br><br>
@@ -486,7 +486,7 @@
                 /* ══ ZONE 1: BOOKING DESK ══ */
                 <<if not $looted_booking>>
                     <div class="crisis-card" style="background: rgba(0,40,60,0.2); border: 1px solid #333; padding: 15px; display: flex; flex-direction: column; box-sizing: border-box;">
-                        <img src="image/Act3/substation_booking.gif" style="width: 100%; height: 160px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
+                        <img src="image/Act3/substation_booking.webp" style="width: 100%; height: 160px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
                         <div style="flex-grow: 1;">
                             <b style="color:var(--accent-blue); font-size:1.1em;">The Booking Desk</b><br><br>
                             Shattered computer screens and scattered patrol logs. An emergency dispatch terminal is still flickering with an active text prompt.
@@ -527,7 +527,7 @@
                 /* ══ ZONE 2: EVIDENCE LOCKER ══ */
                 <<if not $looted_evidence>>
                     <div class="crisis-card" style="background: rgba(0,40,60,0.2); border: 1px solid #333; padding: 15px; display: flex; flex-direction: column; box-sizing: border-box;">
-                        <img src="image/Act3/substation_evidence.gif" style="width: 100%; height: 160px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
+                        <img src="image/Act3/substation_evidence.webp" style="width: 100%; height: 160px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
                         <div style="flex-grow: 1;">
                             <b style="color:var(--accent-gold); font-size:1.1em;">The Evidence Cage</b><br><br>
                             Heavy steel mesh cage with a padlock on the latch. Inside are stacked tactical vest pouches and emergency field trauma kits.
@@ -588,7 +588,7 @@
                 /* ══ ZONE 3: ARMORY SAFE ══ */
                 <<if not $looted_armory>>
                     <div class="crisis-card" style="background: rgba(0,40,60,0.2); border: 1px solid #333; padding: 15px; display: flex; flex-direction: column; box-sizing: border-box;">
-                        <img src="image/Act3/substation_armory.gif" style="width: 100%; height: 160px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
+                        <img src="image/Act3/substation_armory.webp" style="width: 100%; height: 160px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
                         <div style="flex-grow: 1;">
                             <b style="color:var(--accent-red); font-size:1.1em;">The Armory Safe</b><br><br>
                             Reinforced metal cabinet. Beside it stands a personal locker labeled with a nametag: <b>DEP. REYES</b>. Taped inside the louver is a small school photo of a smiling young girl.
@@ -680,7 +680,7 @@
         </div>
 
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-            <img src="image/Act3/substation_loadingdock.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+            <img src="image/Act3/substation_loadingdock.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
         </div>
 
         <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-green); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -693,18 +693,18 @@
             Her hand rests near her holstered sidearm, but she doesn't draw. She stares at you with pure exhaustion.
             <br><br>
             <<if _hasVane>>
-                <<chat "Vane" "image/avatars/vane.gif" "right" "...Is she a survivor? How long has she been standing there?">>
+                <<chat "Vane" "image/avatars/vane.webp" "right" "...Is she a survivor? How long has she been standing there?">>
                 <br>
             <</if>>
-            <<chat "Reyes" "image/avatars/reyes.gif" "right" "Easy... I'm not infected. Deputy Reyes. This is my substation. Or it was, until midnight.">>
+            <<chat "Reyes" "image/avatars/reyes.webp" "right" "Easy... I'm not infected. Deputy Reyes. This is my substation. Or it was, until midnight.">>
             <br>
             Her voice is raspy, tight with held-back tears.
             <br><br>
-            <<chat "Reyes" "image/avatars/reyes.gif" "right" "I live just down the road. When the 911 calls exploded at ten last night, my radio broadcast told everyone to head for the high school sanctuary. I tried to get my daughter, Emma, there... but the streets were blocked with crashed cars and infected. We were attacked. She didn't make it.">>
+            <<chat "Reyes" "image/avatars/reyes.webp" "right" "I live just down the road. When the 911 calls exploded at ten last night, my radio broadcast told everyone to head for the high school sanctuary. I tried to get my daughter, Emma, there... but the streets were blocked with crashed cars and infected. We were attacked. She didn't make it.">>
             <br>
             She takes a ragged breath, blinking hard against the cold mist.
             <br><br>
-            <<chat "Reyes" "image/avatars/reyes.gif" "right" "I couldn't save my own little girl. So I volunteered to scout the roads outside the school on my bike... looking for people who still have a chance. You came out of that station alive, which means you're trying to reach the sanctuary too. But you won't get past the school gates without someone who knows the guards.">>
+            <<chat "Reyes" "image/avatars/reyes.webp" "right" "I couldn't save my own little girl. So I volunteered to scout the roads outside the school on my bike... looking for people who still have a chance. You came out of that station alive, which means you're trying to reach the sanctuary too. But you won't get past the school gates without someone who knows the guards.">>
 
             <<set $stranger_met to true>>
             <<set $met_reyes to true>>
@@ -750,7 +750,7 @@
         </div>
 
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-            <img src="image/Act3/substation_loadingdock.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+            <img src="image/Act3/substation_loadingdock.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
         </div>
 
         <<run setup.sound.play("siren_alarm", "audio/sfx/car_alarm_wail.mp3", true, 0.8)>>
@@ -761,14 +761,14 @@
             Heavy motorized fire shutters begin groaning downward, threatening to trap you inside. Through the front glass, infected turn in a frenzy and surge toward the records hallway!
             <br><br>
             <<if _hasVane>>
-                <<chat "Vane" "image/avatars/vane.gif" "right" "The emergency shutters are dropping! We're gonna be trapped!">>
+                <<chat "Vane" "image/avatars/vane.webp" "right" "The emergency shutters are dropping! We're gonna be trapped!">>
                 <br>
             <</if>>
             Suddenly, a figure in a police windbreaker and respirator appears at the exterior maintenance console. Her hands slam against the manual release valve. The descending steel shutter screeches and halts fifty centimeters off the concrete!
             <br><br>
             She tosses a burning road flare into the front hallway to distract the infected, then reaches under the shutter toward you.
             <br><br>
-            <<chat "Reyes" "image/avatars/reyes.gif" "right" "Deputy Reyes! Slide under the shutter NOW! It's not going to hold!">>
+            <<chat "Reyes" "image/avatars/reyes.webp" "right" "Deputy Reyes! Slide under the shutter NOW! It's not going to hold!">>
 
             <<set $stranger_met to true>>
             <<set $met_reyes to true>>
@@ -826,7 +826,7 @@
             <<if $stranger_trust == "interrogated">>
                 Reyes pulls her respirator down to her chest. Her eyes are heavy with unspeakable fatigue.
                 <br><br>
-                <<chat "Reyes" "image/avatars/reyes.gif" "right" "I have no reason to lie to you. My house is just down the road—I lived there with my daughter, Emma. When the town collapsed around midnight, I tried to get her to the high school sanctuary. She died in my arms on that road. I don't care about anything now except helping other people reach those gates alive.">>
+                <<chat "Reyes" "image/avatars/reyes.webp" "right" "I have no reason to lie to you. My house is just down the road—I lived there with my daughter, Emma. When the town collapsed around midnight, I tried to get her to the high school sanctuary. She died in my arms on that road. I don't care about anything now except helping other people reach those gates alive.">>
                 <br>
                 <<if hasTrait("LIE DETECTOR")>>
                     <div style="padding:10px 14px; background:rgba(0,30,50,0.3); border-left:3px solid var(--accent-blue); margin:10px 0; font-size:0.85em;">
@@ -836,7 +836,7 @@
             <<elseif $stranger_trust == "allied">>
                 Reyes gives a faint, appreciative nod, wiping a bead of rain from her eyebrow.
                 <br><br>
-                <<chat "Reyes" "image/avatars/reyes.gif" "right" "Thanks, $firstName. Having people who can still talk calmly after a night like this gives me hope. Let's get to your vehicle.">>
+                <<chat "Reyes" "image/avatars/reyes.webp" "right" "Thanks, $firstName. Having people who can still talk calmly after a night like this gives me hope. Let's get to your vehicle.">>
             <<else>>
                 You follow Reyes down the wet gravel path toward the parked sedan.
             <</if>>
@@ -850,11 +850,11 @@
                 <br><br>
                 Reyes's breath catches in her throat. A look of overwhelming, piercing grief washes over her features as she stares at the children. Her hand drops from the car door handle.
                 <br><br>
-                <<chat "Reyes" "image/avatars/reyes.gif" "right" "You have children in there.">>
+                <<chat "Reyes" "image/avatars/reyes.webp" "right" "You have children in there.">>
                 <br>
                 She steps back, swallowing hard, her jaw tightening with fierce resolve.
                 <br><br>
-                <<chat "Reyes" "image/avatars/reyes.gif" "right" "I'm not crowding that car or draining your fuel. I have my mountain bike stashed in the maintenance shed around the corner. I've been riding on two wheels since midnight—silent, fast, and able to squeeze through blocked alleys. I'll ride point and scout the turns ahead. We're going to get those kids to safety. Follow my rear light.">>
+                <<chat "Reyes" "image/avatars/reyes.webp" "right" "I'm not crowding that car or draining your fuel. I have my mountain bike stashed in the maintenance shed around the corner. I've been riding on two wheels since midnight—silent, fast, and able to squeeze through blocked alleys. I'll ride point and scout the turns ahead. We're going to get those kids to safety. Follow my rear light.">>
                 <<set $reyes_rides_bike to true>>
                 <<set $sheriff_phase to 6>>
 
@@ -862,7 +862,7 @@
                 <br><br>
                 She counts the passengers through the windshield.
                 <br><br>
-                <<chat "Reyes" "image/avatars/reyes.gif" "right" "That car is at full capacity. Extra weight will only risk blowing a tire on these broken rural roads. I have my mountain bike stashed in the shed—I'll ride point and scout ahead on two wheels.">>
+                <<chat "Reyes" "image/avatars/reyes.webp" "right" "That car is at full capacity. Extra weight will only risk blowing a tire on these broken rural roads. I have my mountain bike stashed in the shed—I'll ride point and scout ahead on two wheels.">>
                 <<set $reyes_rides_bike to true>>
                 <<set $sheriff_phase to 6>>
 
@@ -870,13 +870,13 @@
                 <br><br>
                 She sees the children in the rear seat. Her eyes soften with deep emotion.
                 <br><br>
-                <<chat "Reyes" "image/avatars/reyes.gif" "right" "Keep the kids comfortable. I'll take my mountain bike from the shed and ride ahead to scout the intersections. It's safer if I check the road first.">>
+                <<chat "Reyes" "image/avatars/reyes.webp" "right" "Keep the kids comfortable. I'll take my mountain bike from the shed and ride ahead to scout the intersections. It's safer if I check the road first.">>
                 <<set $reyes_rides_bike to true>>
                 <<set $sheriff_phase to 6>>
 
             <<else>>
                 <br><br>
-                <<chat "Reyes" "image/avatars/reyes.gif" "right" "There's room in the passenger seat, or I can pull my mountain bike from the shed and ride point to scout ahead. What do you prefer?">>
+                <<chat "Reyes" "image/avatars/reyes.webp" "right" "There's room in the passenger seat, or I can pull my mountain bike from the shed and ride point to scout ahead. What do you prefer?">>
             <</if>>
 
             <<if not _carFull and not _hasKids>>
@@ -921,7 +921,7 @@
         </div>
 
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-            <img src="image/Act3/substation_exterior.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+            <img src="image/Act3/substation_exterior.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
         </div>
 
         <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -931,20 +931,20 @@
                 Reyes runs to the maintenance shed and wheels out a matte-black mountain bike. She fastens a small, dim red LED light to the seat post.
                 <br><br>
                 <<if _hasVane>>
-                    <<chat "Vane" "image/avatars/vane.gif" "right" "Smart... silent, fast on rough dirt trails. She's doing everything she can to survive.">>
+                    <<chat "Vane" "image/avatars/vane.webp" "right" "Smart... silent, fast on rough dirt trails. She's doing everything she can to survive.">>
                 <<elseif _hasMaya>>
                     In the backseat, Maya holds Lily close, her eyes shining with quiet gratitude as she watches Reyes prepare the route.
                 <<elseif _hasDiane>>
                     Diane watches through the window with a solemn, respectful nod. <span style="color:var(--accent-green);">"A mother who lost everything... she'll fight like hell to protect what's left."</span>
                 <</if>>
                 <br><br>
-                <<chat "Reyes" "image/avatars/reyes.gif" "right" "Follow my red light. Keep about twenty meters behind me so you have room to brake. When we reach the high school perimeter, stay in the car. The Vice Principal and the volunteer guards are scared and jumpy after last night. Let me talk to them first—they know my badge.">>
+                <<chat "Reyes" "image/avatars/reyes.webp" "right" "Follow my red light. Keep about twenty meters behind me so you have room to brake. When we reach the high school perimeter, stay in the car. The Vice Principal and the volunteer guards are scared and jumpy after last night. Let me talk to them first—they know my badge.">>
                 <br><br>
                 She pushes off the gravel and pedals smoothly into the dark, foggy morning road ahead.
             <<else>>
                 Reyes climbs into the car and rests her hands on her knees, staring out at the foggy windshield.
                 <br><br>
-                <<chat "Reyes" "image/avatars/reyes.gif" "right" "Head north on County Road 4. When we pull up to the high school gate, let me step out first. The Vice Principal has the place locked down tight, and the guards will be on edge. They know my face.">>
+                <<chat "Reyes" "image/avatars/reyes.webp" "right" "Head north on County Road 4. When we pull up to the high school gate, let me step out first. The Vice Principal has the place locked down tight, and the guards will be on edge. They know my face.">>
                 <br><br>
                 She leans back against the headrest, closing her eyes for a brief moment to gather her strength.
             <</if>>

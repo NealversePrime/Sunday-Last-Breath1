@@ -12,9 +12,9 @@
         </div>
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
             <<if _arrivedLate>>
-                <img src="image/Act3_Timberline/canteen_morning.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act3_Timberline/canteen_morning.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             <<else>>
-                <img src="image/Act3_Timberline/canteen_night.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act3_Timberline/canteen_night.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             <</if>>
         </div>
         <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -26,9 +26,9 @@
         <br><br>
         At the serving line, a young woman in an apron is trying to scrape the bottom of a steel pot. She looks dead on her feet, her hair plastered to her forehead with sweat.
         <br><br>
-        <<chat "Refugee" "image/avatars/unknown.gif" "left" "Is there anything left? We've been trapped in this school all night!">>
+        <<chat "Refugee" "image/avatars/unknown.webp" "left" "Is there anything left? We've been trapped in this school all night!">>
         <br><br>
-        <<chat "Volunteer" "image/avatars/canteen_sadie.gif" "right" "I'm scraping the bottom of the barrel. I'm sorry. If the scouts bring in more today, we'll double the portions.">>
+        <<chat "Volunteer" "image/avatars/canteen_sadie.webp" "right" "I'm scraping the bottom of the barrel. I'm sorry. If the scouts bring in more today, we'll double the portions.">>
         <br><br>
         The refugee nods weakly and shuffles away. When you approach, the young woman puts on a practiced, weary smile.
     <<else>>
@@ -36,14 +36,14 @@
         <br><br>
         The serving line stretches across the room. At the front, a young woman in an apron is frantically trying to distribute ladles of soup into plastic bowls. She looks exhausted.
         <br><br>
-        <<chat "Refugee" "image/avatars/unknown.gif" "left" "That's it? That's half a bowl! We left everything behind when the sirens started!">>
+        <<chat "Refugee" "image/avatars/unknown.webp" "left" "That's it? That's half a bowl! We left everything behind when the sirens started!">>
         <br><br>
-        <<chat "Volunteer" "image/avatars/canteen_sadie.gif" "right" "I know, I know. I'm sorry. Please stay in line! One ration pack per family right now. If the scouts bring in more tomorrow, we'll double the portions.">>
+        <<chat "Volunteer" "image/avatars/canteen_sadie.webp" "right" "I know, I know. I'm sorry. Please stay in line! One ration pack per family right now. If the scouts bring in more tomorrow, we'll double the portions.">>
         <br><br>
         The refugee mutters something under his breath and snatches the bowl. The volunteer exhales a shaky breath and looks down at the nearly empty steel pot. When you approach, the young woman puts on a practiced smile.
     <</if>>
     <br><br>
-    <<chat "Volunteer" "image/avatars/canteen_sadie.gif" "right" "New arrival? You'll need to sign in with Sgt. Vance if you haven't already. If you're here for food, the line starts by the double doors. I promise I'm going as fast as I can. I'm Sadie, by the way.">>
+    <<chat "Volunteer" "image/avatars/canteen_sadie.webp" "right" "New arrival? You'll need to sign in with Sgt. Vance if you haven't already. If you're here for food, the line starts by the double doors. I promise I'm going as fast as I can. I'm Sadie, by the way.">>
     <<set $sadie_met to true>>
     <br><br>
 <</if>>
@@ -51,12 +51,12 @@
 <<if $helped_sadie>>
     Sadie spots you walking into the cafeteria and offers a warm, genuine smile. The ration line is much shorter now, and the atmosphere in the room feels slightly less desperate.
     <br><br>
-    <<chat "Sadie" "image/avatars/canteen_sadie.gif" "right" "Things are finally settling down. You have no idea how much those supplies helped. People get scared when they're hungry. You kept a lot of people from panicking.">>
+    <<chat "Sadie" "image/avatars/canteen_sadie.webp" "right" "Things are finally settling down. You have no idea how much those supplies helped. People get scared when they're hungry. You kept a lot of people from panicking.">>
     <br><br>
     <<if not $eaten_canteen_meal>>
         She pushes a warm bowl of thick stew and a slice of bread across the counter toward you.
         <br><br>
-        <<chat "Sadie" "image/avatars/canteen_sadie.gif" "right" "I saved a proper portion for you. Sit down. Eat. You've earned it.">>
+        <<chat "Sadie" "image/avatars/canteen_sadie.webp" "right" "I saved a proper portion for you. Sit down. Eat. You've earned it.">>
         <br><br>
         <div class="choice-menu" style="margin-top:15px;">
             <button style="border-left-color: var(--accent-green) !important;">
@@ -79,7 +79,7 @@
     <<if $sadie_met>>
         Sadie is still behind the counter, stressed and struggling to stretch the emergency food supplies. She glances at you, wiping her forehead with the back of her wrist.
         <br><br>
-        <<chat "Sadie" "image/avatars/canteen_sadie.gif" "right" "If you need rations, I'm almost out. The water pipes in the school stopped working, so I can't even thin out the broth anymore.">>
+        <<chat "Sadie" "image/avatars/canteen_sadie.webp" "right" "If you need rations, I'm almost out. The water pipes in the school stopped working, so I can't even thin out the broth anymore.">>
         <br><br>
     <</if>>
 

@@ -867,7 +867,7 @@ body[data-tags~="title-screen"] .passage {
    ======================================================================= */
 body[data-tags~="title-screen"] #story {
     /* Main Menu Background Image & CRT Boot */
-    background-image: url('image/main_menu_bg.gif') !important; 
+    background-image: url('image/main_menu_bg.webp') !important; 
     background-size: cover !important;
     background-position: center !important;
     animation: true-crt-boot 1.1s cubic-bezier(0.23, 1, 0.32, 1) forwards;

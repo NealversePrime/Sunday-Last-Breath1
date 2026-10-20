@@ -11,7 +11,7 @@
 
     <!-- ROTC / SHOOTING -->
     <div class="academic-card">
-        <img src="image/hobby/shooting.gif">
+        <img src="image/hobby/shooting.webp">
         <div class="ac-overlay"></div>
         <div class="ac-content">
             <div class="ac-title" style="color:var(--accent-red)">ROTC</div>
@@ -25,7 +25,7 @@
 
     <!-- SPORTS / MELEE -->
     <div class="academic-card">
-        <img src="image/hobby/melee.gif">
+        <img src="image/hobby/melee.webp">
         <div class="ac-overlay"></div>
         <div class="ac-content">
             <div class="ac-title" style="color:var(--accent-gold)">SPORTS</div>
@@ -39,7 +39,7 @@
 
     <!-- TRACK / STEALTH -->
     <div class="academic-card">
-        <img src="image/hobby/stealth.gif">
+        <img src="image/hobby/stealth.webp">
         <div class="ac-overlay"></div>
         <div class="ac-content">
             <div class="ac-title" style="color:#2ecc71">TRACK</div>
@@ -53,7 +53,7 @@
 
     <!-- CS / TECH -->
     <div class="academic-card">
-        <img src="image/hobby/tech.gif">
+        <img src="image/hobby/tech.webp">
         <div class="ac-overlay"></div>
         <div class="ac-content">
             <div class="ac-title" style="color:var(--accent-blue)">CS & IT</div>
@@ -67,7 +67,7 @@
 
     <!-- BIO / MEDICINE -->
     <div class="academic-card">
-        <img src="image/hobby/medicine.gif">
+        <img src="image/hobby/medicine.webp">
         <div class="ac-overlay"></div>
         <div class="ac-content">
             <div class="ac-title" style="color:#3498db">BIOLOGY</div>

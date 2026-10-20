@@ -11,16 +11,16 @@
             GROUND FLOOR — SCREENING ROOM
         </div>
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-            <img src="image/Act3_Timberline/screening.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+            <img src="image/Act3_Timberline/screening.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
         </div>
         <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
             <span id="vn-screening-main">
                 <<if _arrivedLate>>
-                    <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "Hands visible. Weapons tagged. Don't make me repeat it... I'm too tired to repeat it.">>
+                    <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "Hands visible. Weapons tagged. Don't make me repeat it... I'm too tired to repeat it.">>
                     <br><br>
                     Sgt. Vance rubs his bloodshot eyes and takes a slow drink from a thermos of cold coffee. He mechanically inspects incoming gear and logs refugee contraband. He doesn't even look up from his clipboard as you walk past.
                 <<else>>
-                    <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "Keep your hands visible while you're in the foyer! All heavy weapons stay tagged in the locker! Step back!">>
+                    <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "Keep your hands visible while you're in the foyer! All heavy weapons stay tagged in the locker! Step back!">>
                     <br><br>
                     Sgt. Vance is yelling over the arguments of fresh, panicked refugees. He aggressively inspects incoming gear and logs refugee contraband, keeping one hand resting on his sidearm just in case someone loses their nerve.
                 <</if>>

@@ -12,12 +12,12 @@
 
 /* DYNAMIC LEADER CONFIGURATION */
 <<set _leaderName to "Commander Hayes">>
-<<set _leaderAvatar to "image/avatars/leader_default_hayes.gif">>
+<<set _leaderAvatar to "image/avatars/leader_default_hayes.webp">>
 <<set _leaderRef to "Commander Hayes">>
 
 <<if $anchor == "partner_f">>
     <<set _leaderName to $anchor_name>>
-    <<set _leaderAvatar to "image/avatars/leader_f.gif">>
+    <<set _leaderAvatar to "image/avatars/leader_f.webp">>
     <<set _leaderRef to ($anchor_rel ? "your " + $anchor_rel + ", " + $anchor_name : "your girlfriend, " + $anchor_name)>>
     <<set _subj to "she">>
     <<set _obj to "her">>
@@ -25,7 +25,7 @@
     <<set _capSubj to "She">>
 <<elseif $anchor == "partner_m">>
     <<set _leaderName to $anchor_name>>
-    <<set _leaderAvatar to "image/avatars/leader_m.gif">>
+    <<set _leaderAvatar to "image/avatars/leader_m.webp">>
     <<set _leaderRef to ($anchor_rel ? "your " + $anchor_rel + ", " + $anchor_name : "your boyfriend, " + $anchor_name)>>
     <<set _subj to "he">>
     <<set _obj to "him">>
@@ -33,7 +33,7 @@
     <<set _capSubj to "He">>
 <<elseif $anchor == "partner_nb">>
     <<set _leaderName to $anchor_name>>
-    <<set _leaderAvatar to "image/avatars/leader_nb.gif">>
+    <<set _leaderAvatar to "image/avatars/leader_nb.webp">>
     <<set _leaderRef to "your partner, " + $anchor_name>>
     <<set _subj to "they">>
     <<set _obj to "them">>
@@ -41,7 +41,7 @@
     <<set _capSubj to "They">>
 <<elseif $anchor == "parents">>
     <<set _leaderName to "Dad">>
-    <<set _leaderAvatar to "image/avatars/leader_dad.gif">>
+    <<set _leaderAvatar to "image/avatars/leader_dad.webp">>
     <<set _leaderRef to "your father">>
     <<set _subj to "he">>
     <<set _obj to "him">>
@@ -91,7 +91,7 @@
         </div>
 
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-            <img src="image/Act3_Timberline/screening.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+            <img src="image/Act3_Timberline/screening.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
         </div>
 
         <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-gold); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -110,53 +110,53 @@
                     Sgt. Vance kicks the chain-link gate open before the transmission even finishes. The sharp scent of gun solvent, copper, and cosmoline fills the air. He drops your heavy canvas duffel onto the steel counter with a metallic clatter, his eyes darting between the masking-tape tag on the fabric and your face.
                     <br><br>
                     <<if $anchor == "parents">>
-                        <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "When you came through my screening desk an hour ago, I just saw another exhausted survivor with road mud on your boots. Wrote '$firstName $lastName' on the tape, tossed your bag onto the intake shelf, and told you to move along...">>
+                        <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "When you came through my screening desk an hour ago, I just saw another exhausted survivor with road mud on your boots. Wrote '$firstName $lastName' on the tape, tossed your bag onto the intake shelf, and told you to move along...">>
                         <br><br>
                         He shakes his head, staring at you in sheer disbelief as he slashes the zip-tie seals on your bag with a combat blade.
                         <br><br>
-                        <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "Then the radio room patches Arthur's broadcast through, screaming your name over the horn, and Evelyn calls down sobbing... I looked down at this tag: $lastName. Holy hell. You're Arthur and Evelyn's kid.">>
+                        <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "Then the radio room patches Arthur's broadcast through, screaming your name over the horn, and Evelyn calls down sobbing... I looked down at this tag: $lastName. Holy hell. You're Arthur and Evelyn's kid.">>
                         <br><br>
-                        <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "Your old man checked that intake gate fifty times before he rolled out this morning. Kept asking the guards at the gate if any cars had come down the valley road. He was worried sick about you, kid. Now go drag him back out of that freezer.">>
+                        <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "Your old man checked that intake gate fifty times before he rolled out this morning. Kept asking the guards at the gate if any cars had come down the valley road. He was worried sick about you, kid. Now go drag him back out of that freezer.">>
                     <<elseif $anchor == "partner_f" or $anchor == "partner_m" or $anchor == "partner_nb">>
-                        <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "When you came through intake an hour ago, I didn't think twice. Tagged your bag, tossed it on the rack, and shoved you toward the foyer...">>
+                        <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "When you came through intake an hour ago, I didn't think twice. Tagged your bag, tossed it on the rack, and shoved you toward the foyer...">>
                         <br><br>
                         He shakes his head, staring at you in disbelief as he slashes the zip-tie seals on your bag with a combat blade.
                         <br><br>
                         <<if $anchor == "partner_nb">>
-                            <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "Then the radio room patches the Route 9 distress call through, the whole floor hears _leaderName breaking down over the static when they heard your voice, and Evelyn calls down... You're the one they wouldn't stop talking about since the convoy reached Timberline.">>
+                            <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "Then the radio room patches the Route 9 distress call through, the whole floor hears _leaderName breaking down over the static when they heard your voice, and Evelyn calls down... You're the one they wouldn't stop talking about since the convoy reached Timberline.">>
                             <br><br>
-                            <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "_leaderName practically wore a trench in my concrete pacing this room before they left. Kept asking the gate guards if anyone matching your description had been spotted. Go bring them back in one piece.">>
+                            <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "_leaderName practically wore a trench in my concrete pacing this room before they left. Kept asking the gate guards if anyone matching your description had been spotted. Go bring them back in one piece.">>
                         <<else>>
-                            <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "Then the radio room patches the Route 9 distress call through, the whole floor hears _leaderName breaking down over the static when <<print _subj>> heard your voice, and Evelyn calls down... You're the one <<print _subj>> wouldn't stop talking about since the convoy reached Timberline.">>
+                            <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "Then the radio room patches the Route 9 distress call through, the whole floor hears _leaderName breaking down over the static when <<print _subj>> heard your voice, and Evelyn calls down... You're the one <<print _subj>> wouldn't stop talking about since the convoy reached Timberline.">>
                             <br><br>
-                            <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "_leaderName practically wore a trench in my concrete pacing this room before <<print _subj>> left. Kept asking the gate guards if anyone matching your description had been spotted. Go bring <<print _obj>> back in one piece.">>
+                            <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "_leaderName practically wore a trench in my concrete pacing this room before <<print _subj>> left. Kept asking the gate guards if anyone matching your description had been spotted. Go bring <<print _obj>> back in one piece.">>
                         <</if>>
                     <<else>>
-                        <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "When you came through screening with Reyes, I figured you were just another mouth to feed. Now Evelyn calls down Code Red and Reyes tells me you're the one who dragged her through the road ambushes.">>
+                        <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "When you came through screening with Reyes, I figured you were just another mouth to feed. Now Evelyn calls down Code Red and Reyes tells me you're the one who dragged her through the road ambushes.">>
                         <br><br>
                         He slashes the zip-tie seals on your bag with a combat blade and dumps your iron onto the counter.
                         <br><br>
-                        <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "Commander Hayes didn't want to leave the perimeter, but the hospital ward was going dark. We can't afford to lose our chief tactician on that highway. Let's see what you've got.">>
+                        <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "Commander Hayes didn't want to leave the perimeter, but the hospital ward was going dark. We can't afford to lose our chief tactician on that highway. Let's see what you've got.">>
                     <</if>>
                     <br><br>
                     <<if _arrivedLate>>
-                        <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "You rolled in after sunrise with the valley roads crawling, barely got through intake, and now Evelyn's got you gearing right back up for broad daylight combat.">>
+                        <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "You rolled in after sunrise with the valley roads crawling, barely got through intake, and now Evelyn's got you gearing right back up for broad daylight combat.">>
                     <<else>>
-                        <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "You barely came in out of that freezing rain, boots still dripping wet from the road, and now Evelyn's got you rolling straight back out into the dark.">>
+                        <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "You barely came in out of that freezing rain, boots still dripping wet from the road, and now Evelyn's got you rolling straight back out into the dark.">>
                     <</if>>
                     <br><br>
-                    <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "No requisition slips, no signatures today. Here's your iron—clean firing pins, full springs.">>
+                    <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "No requisition slips, no signatures today. Here's your iron—clean firing pins, full springs.">>
                     <br><br>
                     He shoves a heavy, reinforced tactical chest harness across the scratched steel.
                     <br><br>
-                    <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "Strap this on. Eight modular pouches and double utility sleeves. Don't go fumbling through a civilian backpack while some scav is dumping buckshot into your windshield.">>
+                    <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "Strap this on. Eight modular pouches and double utility sleeves. Don't go fumbling through a civilian backpack while some scav is dumping buckshot into your windshield.">>
                     <br><br>
                     <<if $anchor == "parents">>
-                        <<chat "You" "image/avatars/player.gif" "left" "I don't care about the harness, Vance—my dad has minutes left in that cooler. What kind of heavy ordnance did Evelyn clear for us?">>
+                        <<chat "You" "image/avatars/player.webp" "left" "I don't care about the harness, Vance—my dad has minutes left in that cooler. What kind of heavy ordnance did Evelyn clear for us?">>
                     <<elseif $anchor == "partner_f" or $anchor == "partner_m" or $anchor == "partner_nb">>
-                        <<chat "You" "image/avatars/player.gif" "left" "I don't care about the harness, Vance—_leaderName is holding that door with six bullets. What kind of fire did Evelyn authorize?">>
+                        <<chat "You" "image/avatars/player.webp" "left" "I don't care about the harness, Vance—_leaderName is holding that door with six bullets. What kind of fire did Evelyn authorize?">>
                     <<else>>
-                        <<chat "You" "image/avatars/player.gif" "left" "Save the lecture, Vance. If we're breaching that 7-Eleven, we need serious stopping power. Show me what Evelyn authorized.">>
+                        <<chat "You" "image/avatars/player.webp" "left" "Save the lecture, Vance. If we're breaching that 7-Eleven, we need serious stopping power. Show me what Evelyn authorized.">>
                     <</if>>
                     <br><br>
                     <div style="background: rgba(0, 80, 0, 0.25); border: 1px solid var(--accent-green); border-radius: 6px; padding: 12px; margin: 12px 0; font-size: 0.9em;">
@@ -171,13 +171,13 @@
 
                     Vance drops a reinforced military footlocker onto the table, popping the heavy latches with his thumb.
                     <br><br>
-                    <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "Listen close. That 7-Eleven is a damn kill box. You've got shattered plate glass, tight snack aisles, and an overturned fuel tanker leaking near the diesel pumps. One stray spark and the whole block turns into a funeral pyre.">>
+                    <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "Listen close. That 7-Eleven is a damn kill box. You've got shattered plate glass, tight snack aisles, and an overturned fuel tanker leaking near the diesel pumps. One stray spark and the whole block turns into a funeral pyre.">>
                     <br><br>
-                    <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "Evelyn cleared ONE heavy loadout from our reserve crates. You want raw stopping power for the front door, range to countersnipe the scavs, stealth to flank the alley, or field trauma kits to patch up the wounded? Pick your package and lock it in—Reyes is already revving the engine!">>
+                    <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "Evelyn cleared ONE heavy loadout from our reserve crates. You want raw stopping power for the front door, range to countersnipe the scavs, stealth to flank the alley, or field trauma kits to patch up the wounded? Pick your package and lock it in—Reyes is already revving the engine!">>
                 <<else>>
                     Sgt. Vance is hurriedly racking spare magazines into a secondary ammo box, sweat beading on his temple under the humming fluorescent tubes.
                     <br><br>
-                    <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "You're loaded for bear, partner. Reyes has the truck idling by the back gate—stop standing around staring at me! Every second you burn here is another second of glass bowing in that cooler. Get out there and bring them back!">>
+                    <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "You're loaded for bear, partner. Reyes has the truck idling by the back gate—stop standing around staring at me! Every second you burn here is another second of glass bowing in that cooler. Get out there and bring them back!">>
                     <br><br>
                     <div style="background: rgba(0, 80, 150, 0.25); border: 1px solid var(--accent-blue); border-radius: 6px; padding: 12px; margin: 12px 0; font-size: 0.9em;">
                         <b style="color:var(--accent-blue);">✔ SORTIE LOADOUT READY:</b> <<print $sortie_package_chosen.toUpperCase()>> KIT LOCKED.

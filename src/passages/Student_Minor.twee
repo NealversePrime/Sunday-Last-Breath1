@@ -12,7 +12,7 @@
     <!-- MINOR: SHOOTING -->
     <<if $skills.shooting < 3>>
     <div class="academic-card">
-        <img src="image/hobby/shooting.gif">
+        <img src="image/hobby/shooting.webp">
         <div class="ac-overlay"></div>
         <div class="ac-content">
             <div class="ac-title" style="color:var(--accent-red)">SHOOTING</div>
@@ -28,7 +28,7 @@
     <!-- MINOR: MELEE -->
     <<if $skills.melee < 3>>
     <div class="academic-card">
-        <img src="image/hobby/melee.gif">
+        <img src="image/hobby/melee.webp">
         <div class="ac-overlay"></div>
         <div class="ac-content">
             <div class="ac-title" style="color:var(--accent-gold)">MELEE</div>
@@ -44,7 +44,7 @@
     <!-- MINOR: STEALTH -->
     <<if $skills.stealth < 3>>
     <div class="academic-card">
-        <img src="image/hobby/stealth.gif">
+        <img src="image/hobby/stealth.webp">
         <div class="ac-overlay"></div>
         <div class="ac-content">
             <div class="ac-title" style="color:#2ecc71">STEALTH</div>
@@ -60,7 +60,7 @@
     <!-- MINOR: TECH -->
     <<if $skills.tech < 3>>
     <div class="academic-card">
-        <img src="image/hobby/tech.gif">
+        <img src="image/hobby/tech.webp">
         <div class="ac-overlay"></div>
         <div class="ac-content">
             <div class="ac-title" style="color:var(--accent-blue)">TECH</div>
@@ -76,7 +76,7 @@
     <!-- MINOR: MEDICINE -->
     <<if $skills.medicine < 3>>
     <div class="academic-card">
-        <img src="image/hobby/medicine.gif">
+        <img src="image/hobby/medicine.webp">
         <div class="ac-overlay"></div>
         <div class="ac-content">
             <div class="ac-title" style="color:#3498db">MEDICINE</div>

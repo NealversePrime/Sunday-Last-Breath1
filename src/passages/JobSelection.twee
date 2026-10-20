@@ -11,7 +11,7 @@
 
     <!-- 1. POLICE OFFICER -->
     <div class="job-dossier-card" style="border-top: 3px solid var(--accent-blue);">
-        <img class="job-bg" src="image/job_police.gif">
+        <img class="job-bg" src="image/job_police.webp">
         <div class="job-content">
             <div class="job-title" style="color:var(--accent-blue)">POLICE OFFICER</div>
             <div class="job-desc">
@@ -36,7 +36,7 @@
 
     <!-- 2. CONSTRUCTION WORKER -->
     <div class="job-dossier-card" style="border-top: 3px solid var(--accent-red);">
-        <img class="job-bg" src="image/job_worker.gif">
+        <img class="job-bg" src="image/job_worker.webp">
         <div class="job-content">
             <div class="job-title" style="color:var(--accent-red)">CONSTRUCTION</div>
             <div class="job-desc">
@@ -62,7 +62,7 @@
 
     <!-- 3. BURGLAR -->
     <div class="job-dossier-card" style="border-top: 3px solid #2ecc71;">
-        <img class="job-bg" src="image/job_thief.gif">
+        <img class="job-bg" src="image/job_thief.webp">
         <div class="job-content">
             <div class="job-title" style="color:#2ecc71">BURGLAR</div>
             <div class="job-desc">
@@ -88,7 +88,7 @@
 
     <!-- 4. DOCTOR -->
     <div class="job-dossier-card" style="border-top: 3px solid #3498db;">
-        <img class="job-bg" src="image/job_doctor.gif">
+        <img class="job-bg" src="image/job_doctor.webp">
         <div class="job-content">
             <div class="job-title" style="color:#3498db">DOCTOR</div>
             <div class="job-desc">
@@ -114,7 +114,7 @@
 
     <!-- 5. MANAGER -->
     <div class="job-dossier-card" style="border-top: 3px solid #9b59b6;">
-        <img class="job-bg" src="image/job_sales.gif">
+        <img class="job-bg" src="image/job_sales.webp">
         <div class="job-content">
             <div class="job-title" style="color:#9b59b6">MANAGER</div>
             <div class="job-desc">
@@ -140,7 +140,7 @@
 
     <!-- 6. STUDENT -->
     <div class="job-dossier-card" style="border-top: 3px solid #fff;">
-        <img class="job-bg" src="image/job_student.gif">
+        <img class="job-bg" src="image/job_student.webp">
         <div class="job-content">
             <div class="job-title" style="color:#fff">STUDENT</div>
             <div class="job-desc">

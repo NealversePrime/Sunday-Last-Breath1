@@ -12,7 +12,7 @@
         </div>
 
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-            <img src="image/Act3_Timberline/radio.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+            <img src="image/Act3_Timberline/radio.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
         </div>
 
         <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -31,17 +31,17 @@
                     Hunched over the primary transceiver is a young woman in an oversized jacket, wearing heavy dual-cup headphones. Her hands move rapidly across the frequency dials, desperately fighting through the background squeal.
                     <br><br>
                     <<if _arrivedLate>>
-                        <<chat "Radio Operator" "image/avatars/radio_chloe.gif" "right" "Static... endless static. Where did everyone go?">>
+                        <<chat "Radio Operator" "image/avatars/radio_chloe.webp" "right" "Static... endless static. Where did everyone go?">>
                         <br><br>
                         She lowers her headset around her neck and rubs exhausted, bloodshot eyes as you step inside.
                         <br><br>
-                        <<chat "Radio Operator" "image/avatars/radio_chloe.gif" "right" "Didn't hear you come in. The live channels went dead hours before sunrise. I'm Chloe. Our backup generator surged overnight and fried the HF receiver circuit. I'm trying to catch the automated morning military beacons, but without parts to bridge the transformer, we have no idea if any safe zones are still standing outside this valley.">>
+                        <<chat "Radio Operator" "image/avatars/radio_chloe.webp" "right" "Didn't hear you come in. The live channels went dead hours before sunrise. I'm Chloe. Our backup generator surged overnight and fried the HF receiver circuit. I'm trying to catch the automated morning military beacons, but without parts to bridge the transformer, we have no idea if any safe zones are still standing outside this valley.">>
                     <<else>>
-                        <<chat "Radio Operator" "image/avatars/radio_chloe.gif" "right" "Come on, lock in... don't drop out on me! Stay on channel!">>
+                        <<chat "Radio Operator" "image/avatars/radio_chloe.webp" "right" "Come on, lock in... don't drop out on me! Stay on channel!">>
                         <br><br>
                         She hears your boots on the linoleum, rips one earcup back from her ear, and looks up with wide, adrenaline-fueled eyes.
                         <br><br>
-                        <<chat "Radio Operator" "image/avatars/radio_chloe.gif" "right" "Sorry! The municipal grid blew thirty minutes ago and sent a surge that cracked our antenna bridge! I was actively tracking Sheriff dispatch at the south bridge—they're falling back right now! I'm Chloe. I'm trying to hold this rig together, but without replacement parts, we're completely blind to the escape routes!">>
+                        <<chat "Radio Operator" "image/avatars/radio_chloe.webp" "right" "Sorry! The municipal grid blew thirty minutes ago and sent a surge that cracked our antenna bridge! I was actively tracking Sheriff dispatch at the south bridge—they're falling back right now! I'm Chloe. I'm trying to hold this rig together, but without replacement parts, we're completely blind to the escape routes!">>
                     <</if>>
                     <<set $chloe_met to true>>
 
@@ -49,9 +49,9 @@
                     The transmitter console hums smoothly now. The transformer's status LED burns a steady, reassuring green. Chloe looks up from the monitor desk with a relieved smile.
                     <br><br>
                     <<if _arrivedLate>>
-                        <<chat "Chloe" "image/avatars/radio_chloe.gif" "right" "That replacement component saved the rig. I finally locked onto the regional high-frequency emergency broadcast. It's automated, but... you need to hear this.">>
+                        <<chat "Chloe" "image/avatars/radio_chloe.webp" "right" "That replacement component saved the rig. I finally locked onto the regional high-frequency emergency broadcast. It's automated, but... you need to hear this.">>
                     <<else>>
-                        <<chat "Chloe" "image/avatars/radio_chloe.gif" "right" "That part stabilized the bridge just in time! The antenna is pulling live tactical transmissions from the highway units right now. Put this on.">>
+                        <<chat "Chloe" "image/avatars/radio_chloe.webp" "right" "That part stabilized the bridge just in time! The antenna is pulling live tactical transmissions from the highway units right now. Put this on.">>
                     <</if>>
                     <br><br>
                     <<if not $has_radio_lore>>
@@ -83,9 +83,9 @@
                     Chloe is staring helplessly at the scorched transformer box beneath the primary receiver console.
                     <br><br>
                     <<if _arrivedLate>>
-                        <<chat "Chloe" "image/avatars/radio_chloe.gif" "right" "The generator spikes melted my circuit trace. If you can scavenge a Fuse, Batteries, or a Multi-Tool from the school workshops, I can rewire the high-frequency tuner and see if anyone outside is responding to our calls.">>
+                        <<chat "Chloe" "image/avatars/radio_chloe.webp" "right" "The generator spikes melted my circuit trace. If you can scavenge a Fuse, Batteries, or a Multi-Tool from the school workshops, I can rewire the high-frequency tuner and see if anyone outside is responding to our calls.">>
                     <<else>>
-                        <<chat "Chloe" "image/avatars/radio_chloe.gif" "right" "The power surge fried my transformer bridge. If you've got a Fuse, Batteries, or a Multi-Tool from downstairs, I can splice the line and catch the evacuation orders before the towers go dead!">>
+                        <<chat "Chloe" "image/avatars/radio_chloe.webp" "right" "The power surge fried my transformer bridge. If you've got a Fuse, Batteries, or a Multi-Tool from downstairs, I can splice the line and catch the evacuation orders before the towers go dead!">>
                     <</if>>
                     <br><br>
                     <div class="choice-menu">

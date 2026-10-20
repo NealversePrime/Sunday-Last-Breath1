@@ -14,64 +14,64 @@
                BRANCH A: VANE IS WITH THE PLAYER
             ================================================================= */
             <<if $vane_status == "joined">>
-                <<chat "Vane" "image/avatars/vane.gif" "right" "Okay. So. We have a car, we have... whatever this is. Where exactly are we going?">>
+                <<chat "Vane" "image/avatars/vane.webp" "right" "Okay. So. We have a car, we have... whatever this is. Where exactly are we going?">>
                 <br>
                 
                 <!-- 1. ANCHOR: NONE -->
                 <<if $anchor == "none">>
-                    <<chat "You" "image/avatars/player.gif" "left" "Nowhere. I don't have anyone waiting for me. We just drive until we hit the mountains. We find somewhere defensible, and we survive. That's the plan.">>
+                    <<chat "You" "image/avatars/player.webp" "left" "Nowhere. I don't have anyone waiting for me. We just drive until we hit the mountains. We find somewhere defensible, and we survive. That's the plan.">>
                     <br>
                     Vane leans his head against the window, watching the smoke rise in the distance. He lets out a dry breath.
                     <br><br>
-                    <<chat "Vane" "image/avatars/vane.gif" "right" "Right. No itinerary. No brand guidelines. Just survive. Honestly... sounds better than my last press tour. Let's do it.">>
+                    <<chat "Vane" "image/avatars/vane.webp" "right" "Right. No itinerary. No brand guidelines. Just survive. Honestly... sounds better than my last press tour. Let's do it.">>
 
                 <!-- 2. ANCHOR: PARENTS -->
                 <<elseif $anchor == "parents">>
-                    <<chat "You" "image/avatars/player.gif" "left" "Out of the city. We're finding my folks.">>
+                    <<chat "You" "image/avatars/player.webp" "left" "Out of the city. We're finding my folks.">>
                     <br>
-                    <<chat "Vane" "image/avatars/vane.gif" "right" "Think they're okay out there?">>
+                    <<chat "Vane" "image/avatars/vane.webp" "right" "Think they're okay out there?">>
                     <br>
-                    <<chat "You" "image/avatars/player.gif" "left" "If anyone is, it's them. My dad's been preparing for doomsday since the 90s, and my mom is terrifying when her routine is interrupted. I guarantee they took over the neighborhood block watch by breakfast.">>
+                    <<chat "You" "image/avatars/player.webp" "left" "If anyone is, it's them. My dad's been preparing for doomsday since the 90s, and my mom is terrifying when her routine is interrupted. I guarantee they took over the neighborhood block watch by breakfast.">>
                     <br>
                     Vane manages a faint, tired smile.
                     <br><br>
-                    <<chat "Vane" "image/avatars/vane.gif" "right" "Terrifying is good. Terrifying is what we need. Maybe she can adopt me. My management team definitely isn't returning my emails right now. Let's go find them.">>
+                    <<chat "Vane" "image/avatars/vane.webp" "right" "Terrifying is good. Terrifying is what we need. Maybe she can adopt me. My management team definitely isn't returning my emails right now. Let's go find them.">>
 
                 <!-- 3. ANCHOR: WIFE / GIRLFRIEND -->
                 <<elseif $anchor == "partner_f">>
-                    <<chat "You" "image/avatars/player.gif" "left" "Out of the city. We're finding my $anchor_rel, $anchor_name.">>
+                    <<chat "You" "image/avatars/player.webp" "left" "Out of the city. We're finding my $anchor_rel, $anchor_name.">>
                     <br>
-                    <<chat "Vane" "image/avatars/vane.gif" "right" "Think she's okay out there?">>
+                    <<chat "Vane" "image/avatars/vane.webp" "right" "Think she's okay out there?">>
                     <br>
-                    <<chat "You" "image/avatars/player.gif" "left" "Honestly? I'm more worried about whatever gets in her way. She's a high school vice principal. You think this chaos is a crisis? Try managing five hundred teenagers during a fire drill.">>
+                    <<chat "You" "image/avatars/player.webp" "left" "Honestly? I'm more worried about whatever gets in her way. She's a high school vice principal. You think this chaos is a crisis? Try managing five hundred teenagers during a fire drill.">>
                     <br>
                     Vane manages a faint, tired smile. 
                     <br><br>
-                    <<chat "Vane" "image/avatars/vane.gif" "right" "A high school vice principal? Oh, yeah. She's definitely fine. Anyone who can handle that level of teen angst is probably running her own warlord compound by now. Let's go find her.">>
+                    <<chat "Vane" "image/avatars/vane.webp" "right" "A high school vice principal? Oh, yeah. She's definitely fine. Anyone who can handle that level of teen angst is probably running her own warlord compound by now. Let's go find her.">>
 
                 <!-- 4. ANCHOR: HUSBAND / BOYFRIEND -->
                 <<elseif $anchor == "partner_m">>
-                    <<chat "You" "image/avatars/player.gif" "left" "Out of the city. We're finding my $anchor_rel, $anchor_name.">>
+                    <<chat "You" "image/avatars/player.webp" "left" "Out of the city. We're finding my $anchor_rel, $anchor_name.">>
                     <br>
-                    <<chat "Vane" "image/avatars/vane.gif" "right" "Think he's okay out there?">>
+                    <<chat "Vane" "image/avatars/vane.webp" "right" "Think he's okay out there?">>
                     <br>
-                    <<chat "You" "image/avatars/player.gif" "left" "Honestly? I'm more worried about whatever gets in his way. He's a high school athletic director. He's used to screaming at people until they get in line and follow the play.">>
+                    <<chat "You" "image/avatars/player.webp" "left" "Honestly? I'm more worried about whatever gets in his way. He's a high school athletic director. He's used to screaming at people until they get in line and follow the play.">>
                     <br>
                     Vane manages a faint, tired smile. 
                     <br><br>
-                    <<chat "Vane" "image/avatars/vane.gif" "right" "An athletic director? So, basically a professional yeller. Yeah, he's fine. He's probably drafted the entire cul-de-sac into a defensive perimeter by now. Let's go find him.">>
+                    <<chat "Vane" "image/avatars/vane.webp" "right" "An athletic director? So, basically a professional yeller. Yeah, he's fine. He's probably drafted the entire cul-de-sac into a defensive perimeter by now. Let's go find him.">>
 
                 <!-- 5. ANCHOR: NON-BINARY PARTNER -->
                 <<elseif $anchor == "partner_nb">>
-                    <<chat "You" "image/avatars/player.gif" "left" "Out of the city. We're finding my $anchor_rel, $anchor_name.">>
+                    <<chat "You" "image/avatars/player.webp" "left" "Out of the city. We're finding my $anchor_rel, $anchor_name.">>
                     <br>
-                    <<chat "Vane" "image/avatars/vane.gif" "right" "Think they're okay out there?">>
+                    <<chat "Vane" "image/avatars/vane.webp" "right" "Think they're okay out there?">>
                     <br>
-                    <<chat "You" "image/avatars/player.gif" "left" "Honestly? I'm more worried about whatever gets in their way. They're a high school counselor. You think this chaos is bad? Try dealing with three hundred panicking kids. They know exactly how to make people listen.">>
+                    <<chat "You" "image/avatars/player.webp" "left" "Honestly? I'm more worried about whatever gets in their way. They're a high school counselor. You think this chaos is bad? Try dealing with three hundred panicking kids. They know exactly how to make people listen.">>
                     <br>
                     Vane manages a faint, tired smile. 
                     <br><br>
-                    <<chat "Vane" "image/avatars/vane.gif" "right" "A high school counselor? Dealing with teen drama is basically psychological warfare. They definitely know how to manipulate people into surviving. Let's go find them.">>
+                    <<chat "Vane" "image/avatars/vane.webp" "right" "A high school counselor? Dealing with teen drama is basically psychological warfare. They definitely know how to manipulate people into surviving. Let's go find them.">>
                 <</if>>
 
             /* =================================================================

@@ -47,7 +47,7 @@
 
                 You almost smile. Almost.
                 <br><br>
-                <<chat "You" "image/avatars/player.gif" "left" "Dark sense of humor. I hope you made it out of the city, Professor.">>
+                <<chat "You" "image/avatars/player.webp" "left" "Dark sense of humor. I hope you made it out of the city, Professor.">>
             </div>
 
             <div class="choice-menu" style="max-width: 700px; width: 100%; margin: 0 auto;">
@@ -60,7 +60,7 @@
                         <div style="padding:10px; background:rgba(138,28,28,0.3); border:1px solid var(--accent-red); color:#ff6b6b; margin-bottom:15px; text-align:center;">
                             ⛔ <b>PERMANENTLY LOCKED OUT.</b> The keypad triggered its security failsafe after three wrong attempts. The software is sealed. You will have to bypass it physically.
                         </div>
-                        <<chat "You" "image/avatars/player.gif" "left" "Damn it. It bricked itself. Time to do this the hard way.">>
+                        <<chat "You" "image/avatars/player.webp" "left" "Damn it. It bricked itself. Time to do this the hard way.">>
                     
                     <!-- KEYPAD STATE: ACTIVE -->
                     <<else>>
@@ -271,7 +271,7 @@
 
             <!-- TAMBAHKAN GAMBAR DI SINI -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-                <img src="image/act1/unit408.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/act1/unit408.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
 
             <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -287,7 +287,7 @@
                     "Every empire ends. We're just living in the intermission. Take what you need."
                 </div>
 
-                <<chat "You" "image/avatars/player.gif" "left" "He didn't just see this coming. He packed up and left before the alarms even started.">>
+                <<chat "You" "image/avatars/player.webp" "left" "He didn't just see this coming. He packed up and left before the alarms even started.">>
             </div>
 
             <div class="choice-menu" style="max-width: 700px; width: 100%; margin: 0 auto;">

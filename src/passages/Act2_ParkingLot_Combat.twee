@@ -31,7 +31,7 @@
             <!-- FLAVOR TEXT / CONTEXT BANNER -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto;">
                 <<if $vane_status == "joined">>
-                    <<chat "Vane" "image/avatars/vane.gif" "right" "I'll get the car started! Just keep them off me for thirty seconds! And please try not to get blood on the paint!">>
+                    <<chat "Vane" "image/avatars/vane.webp" "right" "I'll get the car started! Just keep them off me for thirty seconds! And please try not to get blood on the paint!">>
                 <<else>>
                     <div style="padding:15px; background:rgba(138,28,28,0.2); border-left:3px solid var(--accent-red); font-style:italic; color:#ff9999;">
                         The car alarm wails. You spin around, weapon raised, as the shadows detach themselves from the walls.
@@ -113,7 +113,7 @@
                                 <<replace "#vn-text-postcombat">>
                                     <!-- JUMPSCARE AMBUSH -->
                                     <div style="margin-bottom: 15px; text-align: center;">
-                                        <img src="image/Act2Street/mechanic_ambush.gif" style="max-width: 100%; border: 1px solid var(--accent-red); box-shadow: 0 0 15px rgba(138,28,28,0.4);">
+                                        <img src="image/Act2Street/mechanic_ambush.webp" style="max-width: 100%; border: 1px solid var(--accent-red); box-shadow: 0 0 15px rgba(138,28,28,0.4);">
                                     </div>
                                     
                                     It drops from the roof of an adjacent toll booth—a massive, ruined man wearing a blood-soaked mechanic's shirt. He hits you squarely in the chest, the sheer momentum knocking you flat on your back against the asphalt.
@@ -138,7 +138,7 @@
                                                         <br><br>
                                                         
                                                         <div style="margin-bottom: 15px; text-align: center;">
-                                                            <img src="image/Act2Street/vane_ram.gif" style="max-width: 100%; border: 1px solid var(--accent-blue); box-shadow: 0 4px 8px rgba(93,141,181,0.4);">
+                                                            <img src="image/Act2Street/vane_ram.webp" style="max-width: 100%; border: 1px solid var(--accent-blue); box-shadow: 0 4px 8px rgba(93,141,181,0.4);">
                                                         </div>
                                                         
                                                         The blue sedan lurches forward. Tires squeal on the pavement as Vane dumps the clutch. The car broadsides the infected mechanic at forty miles an hour. The impact sounds like a butcher dropping a slab of meat on a block. The creature is launched ten feet into the air, crumpling against a concrete pillar in a spray of dark gore.
@@ -147,7 +147,7 @@
                                                         <br><br>
                                                         The passenger door kicks open. Vane leans over from the driver's seat. He's shaking, pale as a ghost, but he manages a wild, adrenaline-fueled smirk.
                                                         <br><br>
-                                                        <<chat "Vane" "image/avatars/vane.gif" "right" "Five stars for the Uber arrival, right? Get in!">>
+                                                        <<chat "Vane" "image/avatars/vane.webp" "right" "Five stars for the Uber arrival, right? Get in!">>
                                                         
                                                         <div class="choice-menu" style="margin-top:20px;">
                                                             <button>

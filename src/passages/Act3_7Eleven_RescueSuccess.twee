@@ -10,24 +10,24 @@
 
 /* DYNAMIC LEADER CONFIGURATION */
 <<set _leaderName to "Commander Hayes">>
-<<set _leaderAvatar to "image/avatars/leader_default_hayes.gif">>
+<<set _leaderAvatar to "image/avatars/leader_default_hayes.webp">>
 <<set _leaderRef to "Commander Hayes">>
 
 <<if $anchor == "partner_f">>
     <<set _leaderName to $anchor_name>>
-    <<set _leaderAvatar to "image/avatars/leader_f.gif">>
+    <<set _leaderAvatar to "image/avatars/leader_f.webp">>
     <<set _leaderRef to "your girlfriend, " + $anchor_name>>
 <<elseif $anchor == "partner_m">>
     <<set _leaderName to $anchor_name>>
-    <<set _leaderAvatar to "image/avatars/leader_m.gif">>
+    <<set _leaderAvatar to "image/avatars/leader_m.webp">>
     <<set _leaderRef to "your boyfriend, " + $anchor_name>>
 <<elseif $anchor == "partner_nb">>
     <<set _leaderName to $anchor_name>>
-    <<set _leaderAvatar to "image/avatars/leader_nb.gif">>
+    <<set _leaderAvatar to "image/avatars/leader_nb.webp">>
     <<set _leaderRef to "your partner, " + $anchor_name>>
 <<elseif $anchor == "parents">>
     <<set _leaderName to "Dad">>
-    <<set _leaderAvatar to "image/avatars/leader_dad.gif">>
+    <<set _leaderAvatar to "image/avatars/leader_dad.webp">>
     <<set _leaderRef to "your father">>
 <</if>>
 
@@ -43,7 +43,7 @@
         </div>
 
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-            <img src="image/Act3_Timberline/headmaster.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+            <img src="image/Act3_Timberline/headmaster.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
         </div>
 
         <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-green); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -55,13 +55,13 @@
                 <<if $anchor == "parents">>
                     Matriarch Evelyn gasps, clutching her chest before running straight around the heavy mahogany desk. Tears stream down her face as she throws her arms around your father, burying her face into his shoulder.
                     <br><br>
-                    <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.gif" "right" "Thank God... almighty God... you're both back! You're both alive!">>
+                    <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.webp" "right" "Thank God... almighty God... you're both back! You're both alive!">>
                     <br><br>
                     Your father gently holds her, then reaches an arm out and pulls you firmly into the embrace.
                     <br><br>
-                    <<chat "Dad" "image/avatars/leader_dad.gif" "right" "It's all thanks to our kid, Evelyn. $firstName stood shoulder to shoulder with Reyes, cut through that ambush, and pulled me out of a death trap.">>
+                    <<chat "Dad" "image/avatars/leader_dad.webp" "right" "It's all thanks to our kid, Evelyn. $firstName stood shoulder to shoulder with Reyes, cut through that ambush, and pulled me out of a death trap.">>
                     <br><br>
-                    <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.gif" "right" "I always believed you would find us, $firstName. Against everything that took the world... our family survived together.">>
+                    <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.webp" "right" "I always believed you would find us, $firstName. Against everything that took the world... our family survived together.">>
                 <<elseif $anchor == "partner_f" or $anchor == "partner_m" or $anchor == "partner_nb">>
                     Matriarch Evelyn looks up from the radio receiver with profound relief in her eyes as you enter together.
                     <br><br>
@@ -71,13 +71,13 @@
                     <br><br>
                     Evelyn watches you two with a gentle, approving nod.
                     <br><br>
-                    <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "I haven't seen <<print _leaderName>> smile like that since the world ended. You two have something rare and unbreakable—and Timberline High is honored to have you here.">>
+                    <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "I haven't seen <<print _leaderName>> smile like that since the world ended. You two have something rare and unbreakable—and Timberline High is honored to have you here.">>
                 <<else>>
                     Matriarch Evelyn gasps in relief, rushing around the mahogany desk to inspect Commander Hayes's bandaged arm.
                     <br><br>
-                    <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "Thank God you made it back! The generator crew already has the diesel connected to the boiler room.">>
+                    <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "Thank God you made it back! The generator crew already has the diesel connected to the boiler room.">>
                     <br><br>
-                    <<chat "Commander Hayes" "image/avatars/leader_default_hayes.gif" "right" "It's all thanks to $firstName right here. Stood shoulder to shoulder with Reyes and pulled us out of an absolute slaughterhouse.">>
+                    <<chat "Commander Hayes" "image/avatars/leader_default_hayes.webp" "right" "It's all thanks to $firstName right here. Stood shoulder to shoulder with Reyes and pulled us out of an absolute slaughterhouse.">>
                 <</if>>
                 <br><br>
                 <<print _leaderName>> turns squarely toward you, extending a firm hand in salute.

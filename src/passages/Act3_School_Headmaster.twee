@@ -11,12 +11,12 @@
 
 /* DYNAMIC LEADER & AVATAR CONFIGURATION */
 <<set _leaderName to "Commander Hayes">>
-<<set _leaderAvatar to "image/avatars/leader_default_hayes.gif">>
+<<set _leaderAvatar to "image/avatars/leader_default_hayes.webp">>
 <<set _leaderRef to "Commander Hayes">>
 
 <<if $anchor == "partner_f">>
     <<set _leaderName to $anchor_name>>
-    <<set _leaderAvatar to "image/avatars/leader_f.gif">>
+    <<set _leaderAvatar to "image/avatars/leader_f.webp">>
     <<set _leaderRef to ($anchor_rel ? "your " + $anchor_rel + ", " + $anchor_name : "your girlfriend, " + $anchor_name)>>
     <<set _subj to "she">>
     <<set _obj to "her">>
@@ -24,7 +24,7 @@
     <<set _capSubj to "She">>
 <<elseif $anchor == "partner_m">>
     <<set _leaderName to $anchor_name>>
-    <<set _leaderAvatar to "image/avatars/leader_m.gif">>
+    <<set _leaderAvatar to "image/avatars/leader_m.webp">>
     <<set _leaderRef to ($anchor_rel ? "your " + $anchor_rel + ", " + $anchor_name : "your boyfriend, " + $anchor_name)>>
     <<set _subj to "he">>
     <<set _obj to "him">>
@@ -32,7 +32,7 @@
     <<set _capSubj to "He">>
 <<elseif $anchor == "partner_nb">>
     <<set _leaderName to $anchor_name>>
-    <<set _leaderAvatar to "image/avatars/leader_nb.gif">>
+    <<set _leaderAvatar to "image/avatars/leader_nb.webp">>
     <<set _leaderRef to "your partner, " + $anchor_name>>
     <<set _subj to "they">>
     <<set _obj to "them">>
@@ -40,7 +40,7 @@
     <<set _capSubj to "They">>
 <<elseif $anchor == "parents">>
     <<set _leaderName to "Dad">>
-    <<set _leaderAvatar to "image/avatars/leader_dad.gif">>
+    <<set _leaderAvatar to "image/avatars/leader_dad.webp">>
     <<set _leaderRef to "your father">>
     <<set _subj to "he">>
     <<set _obj to "him">>
@@ -66,7 +66,7 @@
         </div>
 
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-            <img src="image/Act3_Timberline/headmaster.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+            <img src="image/Act3_Timberline/headmaster.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
         </div>
 
         <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -78,15 +78,15 @@
                     Matriarch Evelyn looks up sharply as the doors swing open, her face etched with deep tension.
                     <br><br>
                     <<if $anchor == "parents">>
-                        <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.gif" "right" "$firstName! Why are you still in the building? Every minute that passes is another minute your father is trapped in that cooler! Please, get to Route 9!">>
+                        <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.webp" "right" "$firstName! Why are you still in the building? Every minute that passes is another minute your father is trapped in that cooler! Please, get to Route 9!">>
                     <<elseif $anchor == "partner_f" or $anchor == "partner_m" or $anchor == "partner_nb">>
                         <<if $anchor == "partner_nb">>
-                            <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "$firstName, the clock is ticking. _leaderName and their team won't last long against that horde. Get down to the 7-Eleven with Reyes before it's too late!">>
+                            <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "$firstName, the clock is ticking. _leaderName and their team won't last long against that horde. Get down to the 7-Eleven with Reyes before it's too late!">>
                         <<else>>
-                            <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "$firstName, the clock is ticking. _leaderName and <<print _poss>> team won't last long against that horde. Get down to the 7-Eleven with Reyes before it's too late!">>
+                            <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "$firstName, the clock is ticking. _leaderName and <<print _poss>> team won't last long against that horde. Get down to the 7-Eleven with Reyes before it's too late!">>
                         <</if>>
                     <<else>>
-                        <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "Reyes and you need to roll out immediately. Commander Hayes is our chief tactical officer—we cannot afford to lose him on Route 9.">>
+                        <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "Reyes and you need to roll out immediately. Commander Hayes is our chief tactical officer—we cannot afford to lose him on Route 9.">>
                     <</if>>
                 <<else>>
                     <!-- STATE: RESCUE COMPLETE, LEADER IS BACK SAFELY -->

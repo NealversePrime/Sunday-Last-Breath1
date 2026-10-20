@@ -36,7 +36,7 @@
 
             <!-- VISUAL: Gridlock Image -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-                <img src="image/Act2Road/highway_gridlock.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act2Road/highway_gridlock.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
 
             <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -57,15 +57,15 @@
                                     <<if $vane_status == "joined">>
                                         Vane leans forward, peering through the windshield. 
                                         <br><br>
-                                        <<chat "Vane" "image/avatars/vane.gif" "right" "Dammit. Dead stop. We aren't going anywhere fast.">>
+                                        <<chat "Vane" "image/avatars/vane.webp" "right" "Dammit. Dead stop. We aren't going anywhere fast.">>
                                         <br>
                                         You put the car in park and rub your eyes. The silence in the cabin is heavy. 
                                         <br><br>
-                                        <<chat "Vane" "image/avatars/vane.gif" "right" "So... before today. Before the world literally ended. What did you actually do?">>
+                                        <<chat "Vane" "image/avatars/vane.webp" "right" "So... before today. Before the world literally ended. What did you actually do?">>
                                         <br>
-                                        <<chat "You" "image/avatars/player.gif" "left" "I was a <<print $job>>. You?">>
+                                        <<chat "You" "image/avatars/player.webp" "left" "I was a <<print $job>>. You?">>
                                         <br>
-                                        <<chat "Vane" "image/avatars/vane.gif" "right" "Content creator. Aesthetic lifestyle, brand sponsorships... Honestly? Maintaining the 'perfect life' illusion was exhausting. Funny how a zombie apocalypse is the only thing that could cure my burnout.">>
+                                        <<chat "Vane" "image/avatars/vane.webp" "right" "Content creator. Aesthetic lifestyle, brand sponsorships... Honestly? Maintaining the 'perfect life' illusion was exhausting. Funny how a zombie apocalypse is the only thing that could cure my burnout.">>
                                     <<else>>
                                         You put the car in park and rub your eyes. The silence in the cabin is oppressive. It leaves too much room for your thoughts to wander back to the blood in the Ascott Residency.
                                     <</if>>
@@ -97,7 +97,7 @@
 
             <!-- VISUAL: Gridlock Image -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-                <img src="image/Act2Road/highway_gridlock.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act2Road/highway_gridlock.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
 
             <!-- AUDIO TRIGGER -->
@@ -129,7 +129,7 @@
                                     <br><br>
 
                                     <<if $vane_status == "joined">>
-                                        <<chat "Vane" "image/avatars/vane.gif" "right" "Overrun? But... the army was out there. If they can't stop this, what the hell are we supposed to do?">>
+                                        <<chat "Vane" "image/avatars/vane.webp" "right" "Overrun? But... the army was out there. If they can't stop this, what the hell are we supposed to do?">>
                                     <<else>>
                                         You stare at the radio. The military is gone. There is no rescue coming.
                                     <</if>>
@@ -178,7 +178,7 @@
 
             <!-- VISUAL: Explosion Image -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid var(--accent-red); overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(138, 28, 28, 0.8);">
-                <img src="image/Act2Road/highway_explosion.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act2Road/highway_explosion.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
 
             <!-- AUDIO & EFFECTS -->
@@ -222,7 +222,7 @@
                                                         <br><br>
                                                         He kicks the passenger door open for you. 
                                                         <br><br>
-                                                        <<chat "Vane" "image/avatars/vane.gif" "right" "GET IN! WE HAVE COMPANY!">>
+                                                        <<chat "Vane" "image/avatars/vane.webp" "right" "GET IN! WE HAVE COMPANY!">>
                                                         <br>
                                                         You lunge for the door, but two figures vault over the hood of the car parked next to yours. Their clothes are torn, their mouths dripping with fresh gore. They cut you off from the passenger door.
                                                         <br><br>
@@ -353,7 +353,7 @@
                                         <<if $vane_status == "joined">>
                                             Vane leans over from the driver's seat and kicks the passenger door open for you. He looks completely pale, staring wide-eyed at the bodies on the ground. 
                                             <br><br>
-                                            <<chat "Vane" "image/avatars/vane.gif" "right" "Get in. Get in right now.">>
+                                            <<chat "Vane" "image/avatars/vane.webp" "right" "Get in. Get in right now.">>
                                             <br>
                                             You don't need to be told twice. You shove the bodies away with your boot, slide into the passenger seat, and slam the door shut. 
                                             <br><br>

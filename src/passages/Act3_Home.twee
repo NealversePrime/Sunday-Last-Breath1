@@ -50,9 +50,9 @@
 
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
             <<if _arrivedLate>>
-                <img src="image/Act3/suburban_house_morning.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act3/suburban_house_morning.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             <<else>>
-                <img src="image/Act3/suburban_house_night.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act3/suburban_house_night.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             <</if>>
         </div>
 
@@ -80,15 +80,15 @@
                                     Vane leans forward between the seats. He’s chewing his lower lip nervously, studying the house with the focused expression he gets when he's running numbers.
                                     <br><br>
                                     <<if _arrivedLate>>
-                                        <<chat "Vane" "image/avatars/vane.gif" "right" "A candle burning in broad daylight? I-it looks like a signal... or they've been awake all night and finally passed out. We should watch the side door.">>
+                                        <<chat "Vane" "image/avatars/vane.webp" "right" "A candle burning in broad daylight? I-it looks like a signal... or they've been awake all night and finally passed out. We should watch the side door.">>
                                     <<else>>
-                                        <<chat "Vane" "image/avatars/vane.gif" "right" "Candle in the window. Covered from the inside. They're trying to keep a low profile in the dark. Keep your eyes on the tree line, please.">>
+                                        <<chat "Vane" "image/avatars/vane.webp" "right" "Candle in the window. Covered from the inside. They're trying to keep a low profile in the dark. Keep your eyes on the tree line, please.">>
                                     <</if>>
                                     <br>
                                     In the backseat, Maya has seven-year-old Lily tucked securely under her arm. Her voice is careful, but edged with a mother's desperation.
                                     <br><br>
                                     <<if _arrivedLate>>
-                                        <<chat "Maya" "image/avatars/maya.gif" "right" "The mist is lifting. We're completely exposed out here on the curb. If we're going inside, we need to do it now before whoever is in there wakes up.">>
+                                        <<chat "Maya" "image/avatars/maya.webp" "right" "The mist is lifting. We're completely exposed out here on the curb. If we're going inside, we need to do it now before whoever is in there wakes up.">>
                                     <<else>>
                                         /* ── DYNAMIC WEAPON DIALOGUE FOR MAYA ── */
                                         <<set _mayaAdvice to "Try to talk to them first. No fighting unless you absolutely have to.">>
@@ -99,71 +99,71 @@
                                         <<elseif _isBlunt>>
                                             <<set _mayaAdvice to "Don't start swinging that thing unless they force your hand. Talk first.">>
                                         <</if>>
-                                        <<chat "Maya" "image/avatars/maya.gif" "right" "It's freezing out here. Lily is shivering violently. If there's a heat source in there, I don't care who owns it. Just... go slow. _mayaAdvice">>
+                                        <<chat "Maya" "image/avatars/maya.webp" "right" "It's freezing out here. Lily is shivering violently. If there's a heat source in there, I don't care who owns it. Just... go slow. _mayaAdvice">>
                                     <</if>>
                                     <br>
-                                    <<chat "You" "image/avatars/player.gif" "left" "Stay in the car with Lily. Doors locked. Vane, you're on the porch with me. We assess the situation before we confront anyone.">>
+                                    <<chat "You" "image/avatars/player.webp" "left" "Stay in the car with Lily. Doors locked. Vane, you're on the porch with me. We assess the situation before we confront anyone.">>
 
                                 <<elseif _hasVane and _hasDiane>>
                                     Vane squints nervously at the covered window.
                                     <br><br>
                                     <<if _arrivedLate>>
-                                        <<chat "Vane" "image/avatars/vane.gif" "right" "M-morning light makes that dark blanket stand out. Anyone walking down the road will spot it. I don't think they're alert upstairs.">>
+                                        <<chat "Vane" "image/avatars/vane.webp" "right" "M-morning light makes that dark blanket stand out. Anyone walking down the road will spot it. I don't think they're alert upstairs.">>
                                     <<else>>
-                                        <<chat "Vane" "image/avatars/vane.gif" "right" "Candle. Someone's awake in there, or the draft hasn't knocked it out. Could be infected drawn to the flame, or a survivor holding the angle.">>
+                                        <<chat "Vane" "image/avatars/vane.webp" "right" "Candle. Someone's awake in there, or the draft hasn't knocked it out. Could be infected drawn to the flame, or a survivor holding the angle.">>
                                     <</if>>
                                     <br>
                                     Diane looks at the house without expression. Her hands are folded tightly in her lap.
                                     <br><br>
                                     <<if _arrivedLate>>
-                                        <<chat "Diane" "image/avatars/diane.gif" "right" "My boys are exhausted. They need a warm floor, not a wet car seat. Let's go see what's left.">>
+                                        <<chat "Diane" "image/avatars/diane.webp" "right" "My boys are exhausted. They need a warm floor, not a wet car seat. Let's go see what's left.">>
                                     <<else>>
                                         /* ── DYNAMIC WEAPON DIALOGUE FOR DIANE ── */
                                         <<if $equip.weapon == "none">>
-                                            <<chat "Diane" "image/avatars/diane.gif" "right" "Marcus warned me about these suburban cul-de-sacs. Too many blind corners in the dark. Keep your guard up, even if you just want to talk.">>
+                                            <<chat "Diane" "image/avatars/diane.webp" "right" "Marcus warned me about these suburban cul-de-sacs. Too many blind corners in the dark. Keep your guard up, even if you just want to talk.">>
                                         <<else>>
-                                            <<chat "Diane" "image/avatars/diane.gif" "right" "Marcus warned me about these suburban cul-de-sacs. Too many blind corners in the dark. Keep a hand on your weapon, but let them speak first.">>
+                                            <<chat "Diane" "image/avatars/diane.webp" "right" "Marcus warned me about these suburban cul-de-sacs. Too many blind corners in the dark. Keep a hand on your weapon, but let them speak first.">>
                                         <</if>>
                                     <</if>>
                                     <br>
-                                    <<chat "You" "image/avatars/player.gif" "left" "Diane, keep the boys down and the doors locked. Vane, we go in together. Quiet and slow.">>
+                                    <<chat "You" "image/avatars/player.webp" "left" "Diane, keep the boys down and the doors locked. Vane, we go in together. Quiet and slow.">>
 
                                 <<elseif _hasVane>>
                                     Vane shivers, clutching Marcus's journal.
                                     <br><br>
                                     <<if _arrivedLate>>
-                                        <<chat "Vane" "image/avatars/vane.gif" "right" "Faint light behind the blanket. It's too late for a candle, which means they've been burning it all night. They might be asleep from exhaustion.">>
+                                        <<chat "Vane" "image/avatars/vane.webp" "right" "Faint light behind the blanket. It's too late for a candle, which means they've been burning it all night. They might be asleep from exhaustion.">>
                                     <<else>>
-                                        <<chat "Vane" "image/avatars/vane.gif" "right" "K-keying on a live candle at four in the morning... they are awake for a reason. Please go slow. Let's not start a fight.">>
+                                        <<chat "Vane" "image/avatars/vane.webp" "right" "K-keying on a live candle at four in the morning... they are awake for a reason. Please go slow. Let's not start a fight.">>
                                     <</if>>
                                     <br>
-                                    <<chat "You" "image/avatars/player.gif" "left" "Either way we go in. Stay behind my shoulder until we know what we're dealing with. I'll try to talk if someone's there.">>
+                                    <<chat "You" "image/avatars/player.webp" "left" "Either way we go in. Stay behind my shoulder until we know what we're dealing with. I'll try to talk if someone's there.">>
 
                                 <<elseif _hasMaya>>
                                     Maya is already looking at the house the way she looks at things she's trying to decide whether to be afraid of. She rubs Lily's shoulders to generate heat.
                                     <br><br>
                                     <<if _arrivedLate>>
-                                        <<chat "Maya" "image/avatars/maya.gif" "right" "Morning is coming. If someone is inside, they are going to notice a car idling outside their front gate. We need to move.">>
+                                        <<chat "Maya" "image/avatars/maya.webp" "right" "Morning is coming. If someone is inside, they are going to notice a car idling outside their front gate. We need to move.">>
                                     <<else>>
-                                        <<chat "Maya" "image/avatars/maya.gif" "right" "It's pitch black out here. A single candle inside means they're trying to save battery power. They are living by simple rules. Find us a way in, but don't force a fight if you don't have to.">>
+                                        <<chat "Maya" "image/avatars/maya.webp" "right" "It's pitch black out here. A single candle inside means they're trying to save battery power. They are living by simple rules. Find us a way in, but don't force a fight if you don't have to.">>
                                     <</if>>
                                     <br>
-                                    <<chat "You" "image/avatars/player.gif" "left" "I'll be careful. Keep Lily asleep if you can. If things go wrong and negotiations fail, you drive.">>
+                                    <<chat "You" "image/avatars/player.webp" "left" "I'll be careful. Keep Lily asleep if you can. If things go wrong and negotiations fail, you drive.">>
 
                                 <<elseif _hasDiane>>
                                     Diane studies the house from the passenger seat. The boys are asleep in the back, finally.
                                     <br><br>
                                     <<if _arrivedLate>>
-                                        <<chat "Diane" "image/avatars/diane.gif" "right" "The morning mist is thick. The soil in those garden boxes is recently turned. They were tending this place yesterday.">>
+                                        <<chat "Diane" "image/avatars/diane.webp" "right" "The morning mist is thick. The soil in those garden boxes is recently turned. They were tending this place yesterday.">>
                                     <<else>>
-                                        <<chat "Diane" "image/avatars/diane.gif" "right" "It's too dark to see if the perimeter is clear. Marcus used to say you never walk up the front path of a house with a covered window in the dark without being ready.">>
+                                        <<chat "Diane" "image/avatars/diane.webp" "right" "It's too dark to see if the perimeter is clear. Marcus used to say you never walk up the front path of a house with a covered window in the dark without being ready.">>
                                     <</if>>
                                     <br>
                                     A pause.
                                     <br><br>
-                                    <<chat "Diane" "image/avatars/diane.gif" "right" "We need shelter. Talk to them if you can. Take what you need if you can't.">>
+                                    <<chat "Diane" "image/avatars/diane.webp" "right" "We need shelter. Talk to them if you can. Take what you need if you can't.">>
                                     <br>
-                                    <<chat "You" "image/avatars/player.gif" "left" "Lock the doors behind me. I'll read the room before I do anything drastic.">>
+                                    <<chat "You" "image/avatars/player.webp" "left" "Lock the doors behind me. I'll read the room before I do anything drastic.">>
 
                                 <<else>>
                                     You sit alone with the engine ticking cool and look at the covered window for a long moment. 
@@ -205,9 +205,9 @@
 
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
             <<if _arrivedLate>>
-                <img src="image/Act3/suburban_house_morning.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act3/suburban_house_morning.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             <<else>>
-                <img src="image/Act3/suburban_house_night.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act3/suburban_house_night.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             <</if>>
         </div>
 
@@ -406,11 +406,11 @@
                     <<if _arrivedLate>>
                         The house smells of dying candle wax, old wood, and cold coffee grounds. The hallway is dimly lit by grey morning light cutting through the window cracks.
                         <br><br>
-                        <<chat "Vane" "image/avatars/vane.gif" "right" "C-coffee's cold. The pot's empty. They've been gone—or asleep—for hours.">>
+                        <<chat "Vane" "image/avatars/vane.webp" "right" "C-coffee's cold. The pot's empty. They've been gone—or asleep—for hours.">>
                     <<else>>
                         The house smells of fresh candle wax, warm wood, and freshly brewed coffee. The hallway is completely dark save for the bright amber glow bleeding under the living room door.
                         <br><br>
-                        <<chat "Vane" "image/avatars/vane.gif" "right" "Smells like coffee. Recent. Keep your hand near your weapon, they might still be holding the corner.">>
+                        <<chat "Vane" "image/avatars/vane.webp" "right" "Smells like coffee. Recent. Keep your hand near your weapon, they might still be holding the corner.">>
                     <</if>>
                     <br>
                     He keeps his voice at a breath. His hand stays nervously on his weapon.
@@ -435,7 +435,7 @@
                 <<if not $looted_kitchen>>
                     <div class="crisis-card" style="background: rgba(0,40,60,0.2); border: 1px solid #333; padding: 15px; display: flex; flex-direction: column; box-sizing: border-box;">
                         
-                        <img src="image/Act3/house_kitchen.gif" style="width: 100%; height: 160px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
+                        <img src="image/Act3/house_kitchen.webp" style="width: 100%; height: 160px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
                         
                         <div style="flex-grow: 1;">
                             <b style="color:var(--accent-green); font-size:1.1em;">The Kitchen</b><br><br>
@@ -498,7 +498,7 @@
                 <<if not $looted_medicine>>
                     <div class="crisis-card" style="background: rgba(0,40,60,0.2); border: 1px solid #333; padding: 15px; display: flex; flex-direction: column; box-sizing: border-box;">
                         
-                        <img src="image/Act3/house_bathroom.gif" style="width: 100%; height: 160px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
+                        <img src="image/Act3/house_bathroom.webp" style="width: 100%; height: 160px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
                         
                         <div style="flex-grow: 1;">
                             <b style="color:var(--accent-blue); font-size:1.1em;">The Bathroom Cabinet</b><br><br>
@@ -561,7 +561,7 @@
                 <<if not $looted_living>>
                     <div class="crisis-card" style="background: rgba(0,40,60,0.2); border: 1px solid #333; padding: 15px; display: flex; flex-direction: column; box-sizing: border-box;">
                         
-                        <img src="image/Act3/house_livingroom.gif" style="width: 100%; height: 160px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
+                        <img src="image/Act3/house_livingroom.webp" style="width: 100%; height: 160px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
                         
                         <div style="flex-grow: 1;">
                             <b style="color:var(--accent-gold); font-size:1.1em;">The Living Room</b><br><br>
@@ -621,7 +621,7 @@
                 <<if not $looted_bedroom>>
                     <div class="crisis-card" style="background: rgba(0,40,60,0.2); border: 1px solid #333; padding: 15px; display: flex; flex-direction: column; box-sizing: border-box;">
                         
-                        <img src="image/Act3/house_hallway_stairs.gif" style="width: 100%; height: 160px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
+                        <img src="image/Act3/house_hallway_stairs.webp" style="width: 100%; height: 160px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
                         
                         <div style="flex-grow: 1;">
                             <b style="color:var(--accent-red); font-size:1.1em;">The Upstairs Bedroom</b><br><br>
@@ -672,7 +672,7 @@
         </div>
 
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-            <img src="image/Act3/house_hallway_stairs.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+            <img src="image/Act3/house_hallway_stairs.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
         </div>
 
         <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-red); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -744,7 +744,7 @@
         </div>
 
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-            <img src="image/Act3/house_hallway_stairs.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+            <img src="image/Act3/house_hallway_stairs.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
         </div>
 
         <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-red); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -761,26 +761,26 @@
                     <<if _arrivedLate>>
                         Her eyes are deep with fatigue. She rubs her face, exhaling a shuddering breath.
                         <br><br>
-                        <<chat "Reyes" "image/avatars/reyes.gif" "right" "Deputy Reyes. This is my house. I haven't slept since... since the outbreak hit at 22:00. I just run scouting routes for the sanctuary now.">>
+                        <<chat "Reyes" "image/avatars/reyes.webp" "right" "Deputy Reyes. This is my house. I haven't slept since... since the outbreak hit at 22:00. I just run scouting routes for the sanctuary now.">>
                     <<else>>
                         Her eyes are sharp, pupils contracted by adrenaline. Her hand hovers near her weapon.
                         <br><br>
-                        <<chat "Reyes" "image/avatars/reyes.gif" "right" "Deputy Reyes. This is my house. You're lucky I didn't pull the trigger. Walking into a dark home at four in the morning is a good way to get a hole in your chest.">>
+                        <<chat "Reyes" "image/avatars/reyes.webp" "right" "Deputy Reyes. This is my house. You're lucky I didn't pull the trigger. Walking into a dark home at four in the morning is a good way to get a hole in your chest.">>
                     <</if>>
                     <br>
                     She looks at the supplies on the counter. Then back at you.
                     <br><br>
-                    <<chat "Reyes" "image/avatars/reyes.gif" "right" "You found my supplies.">>
+                    <<chat "Reyes" "image/avatars/reyes.webp" "right" "You found my supplies.">>
                     <br>
-                    <<chat "You" "image/avatars/player.gif" "left" "We'll leave you half. We didn't know anyone was here.">>
+                    <<chat "You" "image/avatars/player.webp" "left" "We'll leave you half. We didn't know anyone was here.">>
                     <br>
                     She shakes her head slowly, looking past you toward the living room.
                     <br><br>
-                    <<chat "Reyes" "image/avatars/reyes.gif" "right" "Keep it. I don't need much anymore. I saw you looking at the journal. That was my daughter, Emma. We didn't make it to the sanctuary. Now I just try to guide people who still have a chance. I know where the high school is, I know the checkpoint layout, and I know who's running it.">>
+                    <<chat "Reyes" "image/avatars/reyes.webp" "right" "Keep it. I don't need much anymore. I saw you looking at the journal. That was my daughter, Emma. We didn't make it to the sanctuary. Now I just try to guide people who still have a chance. I know where the high school is, I know the checkpoint layout, and I know who's running it.">>
                     <br>
-                    <<chat "You" "image/avatars/player.gif" "left" "The Vice Principal. I read the journal. I actually know them. They're a good leader.">>
+                    <<chat "You" "image/avatars/player.webp" "left" "The Vice Principal. I read the journal. I actually know them. They're a good leader.">>
                     <br>
-                    <<chat "Reyes" "image/avatars/reyes.gif" "right" "The best we have right now. But that means they're strict. The guards at the gate won't hesitate to shoot if you spook them. You're going to want my vouch before you drive up to that gate.">>
+                    <<chat "Reyes" "image/avatars/reyes.webp" "right" "The best we have right now. But that means they're strict. The guards at the gate won't hesitate to shoot if you spook them. You're going to want my vouch before you drive up to that gate.">>
 
                 <<elseif $stranger_trust == "interrogated">>
                     You step into the hallway, gripping your weapon, ready for anything.
@@ -801,20 +801,20 @@
                             <span style="color:var(--accent-blue); font-weight:bold;">[LIE DETECTOR]</span> First read: elevated heart rate visible at the throat, natural given the circumstance. Pupil response: alarm, not aggression. No deception signals in the baseline. She's grieving and scared, not malicious.
                         </div>
                     <</if>>
-                    <<chat "Reyes" "image/avatars/reyes.gif" "right" "Deputy Reyes. This is my house. I run scouting routes for the high school sanctuary. I've been doing this alone since I lost my daughter. I am not a threat to you.">>
+                    <<chat "Reyes" "image/avatars/reyes.webp" "right" "Deputy Reyes. This is my house. I run scouting routes for the high school sanctuary. I've been doing this alone since I lost my daughter. I am not a threat to you.">>
                     <br>
                     She waits. Hands visible. You lower your guard. Slightly.
                     <br><br>
-                    <<chat "You" "image/avatars/player.gif" "left" "The high school sanctuary. You know where it is.">>
+                    <<chat "You" "image/avatars/player.webp" "left" "The high school sanctuary. You know where it is.">>
                     <br>
-                    <<chat "Reyes" "image/avatars/reyes.gif" "right" "I know the checkpoint, and I know the Vice Principal has it locked down tight. You need my vouch to get in without getting shot.">>
+                    <<chat "Reyes" "image/avatars/reyes.webp" "right" "I know the checkpoint, and I know the Vice Principal has it locked down tight. You need my vouch to get in without getting shot.">>
                     <br>
-                    <<chat "You" "image/avatars/player.gif" "left" "I know the Vice Principal. They'll let me in.">>
+                    <<chat "You" "image/avatars/player.webp" "left" "I know the Vice Principal. They'll let me in.">>
                     <br>
-                    <<chat "Reyes" "image/avatars/reyes.gif" "right" "Maybe. But their guards are terrified. Let me make the introduction.">>
+                    <<chat "Reyes" "image/avatars/reyes.webp" "right" "Maybe. But their guards are terrified. Let me make the introduction.">>
 
                 <<elseif $stranger_trust == "allied">>
-                    <<chat "You" "image/avatars/player.gif" "left" "We're not infected. We're survivors. We'll replace what we take. You have my word.">>
+                    <<chat "You" "image/avatars/player.webp" "left" "We're not infected. We're survivors. We'll replace what we take. You have my word.">>
                     <br>
                     Silence. Three seconds of it.
                     <br><br>
@@ -828,13 +828,13 @@
                     <br>
                     She takes in the group without comment, then looks at you specifically.
                     <br><br>
-                    <<chat "Reyes" "image/avatars/reyes.gif" "right" "You announced yourself. Most people don't.">>
+                    <<chat "Reyes" "image/avatars/reyes.webp" "right" "You announced yourself. Most people don't.">>
                     <br>
-                    <<chat "You" "image/avatars/player.gif" "left" "Most people haven't thought about what they'd want to hear if they were on the other side of that door.">>
+                    <<chat "You" "image/avatars/player.webp" "left" "Most people haven't thought about what they'd want to hear if they were on the other side of that door.">>
                     <br>
                     Something in her expression softens, just a fraction. She looks toward the living room where her journal sits.
                     <br><br>
-                    <<chat "Reyes" "image/avatars/reyes.gif" "right" "Deputy Reyes. This is my home. Or it was. Before I lost my daughter to this... thing. The food is yours. In exchange, let me help you. Because the Vice Principal has the high school on a hair-trigger lockdown, and you shouldn't walk up to that gate without an escort.">>
+                    <<chat "Reyes" "image/avatars/reyes.webp" "right" "Deputy Reyes. This is my home. Or it was. Before I lost my daughter to this... thing. The food is yours. In exchange, let me help you. Because the Vice Principal has the high school on a hair-trigger lockdown, and you shouldn't walk up to that gate without an escort.">>
 
                 <<elseif $stranger_trust == "observed">>
                     You step into the kitchen doorway and go still.
@@ -859,15 +859,15 @@
                     <br><br>
                     <span style="color:var(--accent-red);">"...You were already there,"</span> she says quietly. <span style="color:var(--accent-red);">"You were watching me come down."</span>
                     <br><br>
-                    <<chat "You" "image/avatars/player.gif" "left" "I read your journal. I needed to know who I was dealing with before I introduced myself. Now I know.">>
+                    <<chat "You" "image/avatars/player.webp" "left" "I read your journal. I needed to know who I was dealing with before I introduced myself. Now I know.">>
                     <br>
                     A long pause. She looks toward the living room, a flash of deep pain crossing her features. Then she exhales.
                     <br><br>
-                    <<chat "Reyes" "image/avatars/reyes.gif" "right" "Deputy Reyes. This is my house. You're the first people who've figured out I was upstairs before I reached the bottom of the stairs. I couldn't save my daughter, Emma. But I can guide you. So. Do you want to reach the sanctuary safely?">>
+                    <<chat "Reyes" "image/avatars/reyes.webp" "right" "Deputy Reyes. This is my house. You're the first people who've figured out I was upstairs before I reached the bottom of the stairs. I couldn't save my daughter, Emma. But I can guide you. So. Do you want to reach the sanctuary safely?">>
                     <br>
-                    <<chat "You" "image/avatars/player.gif" "left" "Yes.">>
+                    <<chat "You" "image/avatars/player.webp" "left" "Yes.">>
                     <br>
-                    <<chat "Reyes" "image/avatars/reyes.gif" "right" "I can do that. And I can vouch for you at the gate. The Vice Principal is running a tight ship, and their guards are jumpy.">>
+                    <<chat "Reyes" "image/avatars/reyes.webp" "right" "I can do that. And I can vouch for you at the gate. The Vice Principal is running a tight ship, and their guards are jumpy.">>
 
                 <</if>>
 
@@ -876,9 +876,9 @@
                     <br><br>
                     Vane steps timidly into the hallway behind you. He adjusts his glasses, looking at Reyes with a mix of awe and pity.
                     <br><br>
-                    <<chat "Vane" "image/avatars/vane.gif" "right" "You've been staying here... alone? Just scouting to save strangers?">>
+                    <<chat "Vane" "image/avatars/vane.webp" "right" "You've been staying here... alone? Just scouting to save strangers?">>
                     <br>
-                    <<chat "Reyes" "image/avatars/reyes.gif" "right" "It's the only way I can sleep at night, kid. Finding people who still have a chance.">>
+                    <<chat "Reyes" "image/avatars/reyes.webp" "right" "It's the only way I can sleep at night, kid. Finding people who still have a chance.">>
                 <<elseif _hasMaya>>
                     <br><br>
                     Through the front window, Maya watches the house. Reyes catches her eye through the glass, her gaze immediately locking onto the seven-year-old girl tucked under Maya's arm. 
@@ -888,7 +888,7 @@
                     <br><br>
                     Through the window you can see the car. Diane is watching the porch. Reyes sees the twin boys sleeping in the back seat and her posture instantly shifts from defensive to fiercely protective.
                     <br><br>
-                    <<chat "Reyes" "image/avatars/reyes.gif" "right" "You've got kids out there. We need to move them before the streets wake up.">>
+                    <<chat "Reyes" "image/avatars/reyes.webp" "right" "You've got kids out there. We need to move them before the streets wake up.">>
                 <</if>>
 
                 <div class="choice-menu" style="margin-top:20px;">
@@ -915,9 +915,9 @@
 
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
             <<if _arrivedLate>>
-                <img src="image/Act3/suburban_house_morning.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act3/suburban_house_morning.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             <<else>>
-                <img src="image/Act3/suburban_house_night.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act3/suburban_house_night.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             <</if>>
         </div>
 
@@ -930,12 +930,12 @@
                         <br><br>
                         She counts the silhouettes through the glass. A child's face is visible in the back seat, watching the porch with exhausted, dark-circled eyes. Reyes goes still, her voice heavy with memory.
                         <br><br>
-                        <<chat "Reyes" "image/avatars/reyes.gif" "right" "You've got kids in there. I'm going to make sure they get inside those walls.">>
+                        <<chat "Reyes" "image/avatars/reyes.webp" "right" "You've got kids in there. I'm going to make sure they get inside those walls.">>
                         <br><br>
                         <<if _arrivedLate>>
-                            <<chat "Reyes" "image/avatars/reyes.gif" "right" "That car is already full. I'm not adding my weight to it. It's broad daylight; a blue sedan stands out like a beacon on these logging roads. My bike is in the garage out back. Quiet, no gas, and I know every back route. I'll ride ahead. Follow my tail light.">>
+                            <<chat "Reyes" "image/avatars/reyes.webp" "right" "That car is already full. I'm not adding my weight to it. It's broad daylight; a blue sedan stands out like a beacon on these logging roads. My bike is in the garage out back. Quiet, no gas, and I know every back route. I'll ride ahead. Follow my tail light.">>
                         <<else>>
-                            <<chat "Reyes" "image/avatars/reyes.gif" "right" "That car is already full. I'm not adding my weight to it. The roads are pitch black and the fog is setting in. My bike is in the garage around the back. Quiet, no gas, and I know the bypasses. I'll ride ahead. Follow my tail light.">>
+                            <<chat "Reyes" "image/avatars/reyes.webp" "right" "That car is already full. I'm not adding my weight to it. The roads are pitch black and the fog is setting in. My bike is in the garage around the back. Quiet, no gas, and I know the bypasses. I'll ride ahead. Follow my tail light.">>
                         <</if>>
                         <<set $reyes_rides_bike to true>>
                         
@@ -952,7 +952,7 @@
                         <br><br>
                         She counts the silhouettes and exhales slowly through her nose.
                         <br><br>
-                        <<chat "Reyes" "image/avatars/reyes.gif" "right" "You're already over weight for that chassis. My bike is in the garage out back—I've been riding since the grid went down. Quiet, no fuel drain. I'll take point. You follow.">>
+                        <<chat "Reyes" "image/avatars/reyes.webp" "right" "You're already over weight for that chassis. My bike is in the garage out back—I've been riding since the grid went down. Quiet, no fuel drain. I'll take point. You follow.">>
                         <<set $reyes_rides_bike to true>>
 
                         <div class="choice-menu" style="margin-top:20px;">
@@ -968,7 +968,7 @@
                         <br><br>
                         She sees the children through the window before she sees anything else. She stares at them for a long moment.
                         <br><br>
-                        <<chat "Reyes" "image/avatars/reyes.gif" "right" "You're moving with kids. My bike is in the garage—I've been on two wheels since the first hour. Safer for them if I ride ahead and clear the path rather than add another body to a car with children in it.">>
+                        <<chat "Reyes" "image/avatars/reyes.webp" "right" "You're moving with kids. My bike is in the garage—I've been on two wheels since the first hour. Safer for them if I ride ahead and clear the path rather than add another body to a car with children in it.">>
                         <<set $reyes_rides_bike to true>>
 
                         <div class="choice-menu" style="margin-top:20px;">
@@ -984,7 +984,7 @@
                         <br><br>
                         She glances at the car, then back at you.
                         <br><br>
-                        <<chat "Reyes" "image/avatars/reyes.gif" "right" "My bike is in the garage out back. I've been riding since the first hour—quiet, no fuel drain, and I know a back route that keeps you off the main road entirely. I can lead from the front, or ride in your back seat if you'd rather keep the group together. Your call.">>
+                        <<chat "Reyes" "image/avatars/reyes.webp" "right" "My bike is in the garage out back. I've been riding since the first hour—quiet, no fuel drain, and I know a back route that keeps you off the main road entirely. I can lead from the front, or ride in your back seat if you'd rather keep the group together. Your call.">>
 
                         <div class="choice-menu" style="margin-top:20px;">
                             <button>
@@ -1017,7 +1017,7 @@
                         Reyes disappears around the side of the house. A minute later, she rolls a matte-black mountain bike out of the garage—no reflectors, deliberately invisible. She checks the tires once and clips a small red light to the seat post.
                         <br><br>
                         <<if _hasVane>>
-                            <<chat "Vane" "image/avatars/vane.gif" "right" "She had that bike prepped and ready. She's been surviving like a ghost since the start.">>
+                            <<chat "Vane" "image/avatars/vane.webp" "right" "She had that bike prepped and ready. She's been surviving like a ghost since the start.">>
                             <br>
                         <<elseif _hasMaya>>
                             <<if _arrivedLate>>
@@ -1037,11 +1037,11 @@
                         
                         Reyes pulls up alongside your window, the red tail light already blinking.
                         <br><br>
-                        <<chat "Reyes" "image/avatars/reyes.gif" "right" "Follow the red light. Twenty-meter gap. Kill your headlights when I kill mine. When we hit the checkpoint fence, stay in the car and let me do the talking.">>
+                        <<chat "Reyes" "image/avatars/reyes.webp" "right" "Follow the red light. Twenty-meter gap. Kill your headlights when I kill mine. When we hit the checkpoint fence, stay in the car and let me do the talking.">>
                         <br>
                         A beat.
                         <br><br>
-                        <<chat "Reyes" "image/avatars/reyes.gif" "right" "The Vice Principal has the perimeter guards on high alert. Just let me handle the introduction so no one gets jumpy.">>
+                        <<chat "Reyes" "image/avatars/reyes.webp" "right" "The Vice Principal has the perimeter guards on high alert. Just let me handle the introduction so no one gets jumpy.">>
                         <br><br>
                         <<if _arrivedLate>>
                             She pushes off into the cold morning fog. The small red light bobs once, then steadies—a dim ruby point floating north through the gray mist.
@@ -1052,11 +1052,11 @@
                     <<else>>
                         Reyes locks the house behind her. She gets in the back seat without ceremony, sets her respirator on her knee, and faces forward.
                         <br><br>
-                        <<chat "Reyes" "image/avatars/reyes.gif" "right" "North on the main road. I'll tell you when to turn. When we reach the checkpoint fence, let me get out first and speak to them before you roll up. They know my face.">>
+                        <<chat "Reyes" "image/avatars/reyes.webp" "right" "North on the main road. I'll tell you when to turn. When we reach the checkpoint fence, let me get out first and speak to them before you roll up. They know my face.">>
                         <br>
                         A pause.
                         <br><br>
-                        <<chat "Reyes" "image/avatars/reyes.gif" "right" "The Vice Principal has the perimeter guards on high alert. Just let me handle the introduction so no one gets jumpy.">>
+                        <<chat "Reyes" "image/avatars/reyes.webp" "right" "The Vice Principal has the perimeter guards on high alert. Just let me handle the introduction so no one gets jumpy.">>
                     <</if>>
 
                     <br><br>

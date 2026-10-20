@@ -20,12 +20,12 @@
 
 /* DYNAMIC LEADER & AVATAR CONFIGURATION */
 <<set _leaderName to "Commander Hayes">>
-<<set _leaderAvatar to "image/avatars/leader_default_hayes.gif">>
+<<set _leaderAvatar to "image/avatars/leader_default_hayes.webp">>
 <<set _leaderRef to "Commander Hayes">>
 
 <<if $anchor == "partner_f">>
     <<set _leaderName to $anchor_name>>
-    <<set _leaderAvatar to "image/avatars/leader_f.gif">>
+    <<set _leaderAvatar to "image/avatars/leader_f.webp">>
     <<set _leaderRef to ($anchor_rel ? "your " + $anchor_rel + ", " + $anchor_name : "your girlfriend, " + $anchor_name)>>
     <<set _subj to "she">>
     <<set _obj to "her">>
@@ -33,7 +33,7 @@
     <<set _capSubj to "She">>
 <<elseif $anchor == "partner_m">>
     <<set _leaderName to $anchor_name>>
-    <<set _leaderAvatar to "image/avatars/leader_m.gif">>
+    <<set _leaderAvatar to "image/avatars/leader_m.webp">>
     <<set _leaderRef to ($anchor_rel ? "your " + $anchor_rel + ", " + $anchor_name : "your boyfriend, " + $anchor_name)>>
     <<set _subj to "he">>
     <<set _obj to "him">>
@@ -41,7 +41,7 @@
     <<set _capSubj to "He">>
 <<elseif $anchor == "partner_nb">>
     <<set _leaderName to $anchor_name>>
-    <<set _leaderAvatar to "image/avatars/leader_nb.gif">>
+    <<set _leaderAvatar to "image/avatars/leader_nb.webp">>
     <<set _leaderRef to "your partner, " + $anchor_name>>
     <<set _subj to "they">>
     <<set _obj to "them">>
@@ -49,7 +49,7 @@
     <<set _capSubj to "They">>
 <<elseif $anchor == "parents">>
     <<set _leaderName to "Dad">>
-    <<set _leaderAvatar to "image/avatars/leader_dad.gif">>
+    <<set _leaderAvatar to "image/avatars/leader_dad.webp">>
     <<set _leaderRef to "your father">>
     <<set _subj to "he">>
     <<set _obj to "him">>
@@ -72,9 +72,9 @@
         </div>
         <div id="vn-stage-visual" style="flex: 1 1 auto; min-height: 0; display: flex; justify-content: center; align-items: center; width: 100%; max-width: 650px;">
             <<if _arrivedLate>>
-                <img id="vn-stage-img" src="image/Act3_Timberline/faculty_morning.gif" class="tv-static-img" style="max-height: 30vh !important; max-width: 100%; object-fit: contain;">
+                <img id="vn-stage-img" src="image/Act3_Timberline/faculty_morning.webp" class="tv-static-img" style="max-height: 30vh !important; max-width: 100%; object-fit: contain;">
             <<else>>
-                <img id="vn-stage-img" src="image/Act3_Timberline/faculty_night.gif" class="tv-static-img" style="max-height: 30vh !important; max-width: 100%; object-fit: contain;">
+                <img id="vn-stage-img" src="image/Act3_Timberline/faculty_night.webp" class="tv-static-img" style="max-height: 30vh !important; max-width: 100%; object-fit: contain;">
             <</if>>
         </div>
     </div>
@@ -83,33 +83,33 @@
         <div id="vn-text">
             Officer Reyes is slouched against the cold painted brick wall outside the heavy double doors of the Command suite, both thumbs hooked into her tactical vest to keep her fingers from trembling. Under the flickering fluorescent tube, her knuckles are split and crusted with dried road grime.
             <br><br>
-            <<chat "You" "image/avatars/player.gif" "left" "Reyes...">>
+            <<chat "You" "image/avatars/player.webp" "left" "Reyes...">>
             <br><br>
             Reyes flinches slightly, blinking against the glare before blowing out a long, ragged breath through her teeth.
             <br><br>
-            <<chat "Reyes" "image/avatars/reyes.gif" "right" "Still upright? Good. For a minute down in that stairwell, I thought I was gonna have to carry you up here.">>
+            <<chat "Reyes" "image/avatars/reyes.webp" "right" "Still upright? Good. For a minute down in that stairwell, I thought I was gonna have to carry you up here.">>
             <br><br>
-            <<chat "You" "image/avatars/player.gif" "left" "My legs are shaking so hard I can barely feel the linoleum. Is... is Evelyn inside?">>
+            <<chat "You" "image/avatars/player.webp" "left" "My legs are shaking so hard I can barely feel the linoleum. Is... is Evelyn inside?">>
             <br><br>
-            <<chat "Reyes" "image/avatars/reyes.gif" "right" "Yeah. She's in there. Listen to me for two seconds—don't let her ice-queen routine rattle you. She hasn't slept thirty consecutive minutes since the city went dark. She's running this whole sanctuary on bitter coffee and raw nerve.">>
+            <<chat "Reyes" "image/avatars/reyes.webp" "right" "Yeah. She's in there. Listen to me for two seconds—don't let her ice-queen routine rattle you. She hasn't slept thirty consecutive minutes since the city went dark. She's running this whole sanctuary on bitter coffee and raw nerve.">>
             <br><br>
             <<if _arrivedLate>>
-                <<chat "Reyes" "image/avatars/reyes.gif" "right" "Ever since the sun broke, the tension's been suffocating. The boiler in the basement is choking black smoke, and the guys on the fence are jumping at shadows on the tree line.">>
+                <<chat "Reyes" "image/avatars/reyes.webp" "right" "Ever since the sun broke, the tension's been suffocating. The boiler in the basement is choking black smoke, and the guys on the fence are jumping at shadows on the tree line.">>
                 <br><br>
-                <<chat "You" "image/avatars/player.gif" "left" "I just spent the morning watching people get dragged through car windows on that highway. A tired woman with a clipboard isn't what scares me. Let's just get in there.">>
+                <<chat "You" "image/avatars/player.webp" "left" "I just spent the morning watching people get dragged through car windows on that highway. A tired woman with a clipboard isn't what scares me. Let's just get in there.">>
             <<else>>
-                <<chat "Reyes" "image/avatars/reyes.gif" "right" "That storm washed out the south bridge an hour ago. The guards outside are soaked to the bone and jumping at every twig snap. We're on edge.">>
+                <<chat "Reyes" "image/avatars/reyes.webp" "right" "That storm washed out the south bridge an hour ago. The guards outside are soaked to the bone and jumping at every twig snap. We're on edge.">>
                 <br><br>
-                <<chat "You" "image/avatars/player.gif" "left" "My boots are full of muddy water and my chest aches every time I breathe, but I'm standing. Open the door.">>
+                <<chat "You" "image/avatars/player.webp" "left" "My boots are full of muddy water and my chest aches every time I breathe, but I'm standing. Open the door.">>
             <</if>>
             <<if _hasCompanions>>
                 <br><br>
-                <<chat "You" "image/avatars/player.gif" "left" "The folks who came in with us through the gate... someone's looking after them?">>
+                <<chat "You" "image/avatars/player.webp" "left" "The folks who came in with us through the gate... someone's looking after them?">>
                 <br><br>
-                <<chat "Reyes" "image/avatars/reyes.gif" "right" "Checked on them myself. They're down in the gym getting dry blankets and hot broth. You dragged them out of hell, partner. Now take a breath—let's face the Matriarch.">>
+                <<chat "Reyes" "image/avatars/reyes.webp" "right" "Checked on them myself. They're down in the gym getting dry blankets and hot broth. You dragged them out of hell, partner. Now take a breath—let's face the Matriarch.">>
             <<else>>
                 <br><br>
-                <<chat "Reyes" "image/avatars/reyes.gif" "right" "That's the spirit. Take a breath—let's go see the Matriarch.">>
+                <<chat "Reyes" "image/avatars/reyes.webp" "right" "That's the spirit. Take a breath—let's go see the Matriarch.">>
             <</if>>
         </div>
 
@@ -127,7 +127,7 @@
                 <!-- STEP 2: ENTERING COMMAND OFFICE & REVEAL -->
                 <<if $evelyn_step is 2>>
                     <<replace "#vn-location-header">>1ST FLOOR — COMMAND &amp; HEADMASTER'S OFFICE<</replace>>
-                    <<replace "#vn-stage-visual">><img id="vn-stage-img" src="image/Act3_Timberline/headmaster.gif" class="tv-static-img" style="max-height: 30vh !important; max-width: 100%; object-fit: contain;"><</replace>>
+                    <<replace "#vn-stage-visual">><img id="vn-stage-img" src="image/Act3_Timberline/headmaster.webp" class="tv-static-img" style="max-height: 30vh !important; max-width: 100%; object-fit: contain;"><</replace>>
                     <<replace "#vn-text">>
                         Reyes pushes open the heavy oak double doors. The office smells of stale grounds, copper, and wet wool. Topographic road maps are tacked over the bookshelves, transceivers murmuring low, hollow static.
                         <br><br>
@@ -136,62 +136,62 @@
                         <<if $anchor == "parents">>
                             You take two steps past the threshold, bracing for the cold, intimidating commander Reyes warned you about. But as your eyes land on the woman behind the desk, your breath violently snags in your chest. The room tilts.
                             <br><br>
-                            <<chat "You" "image/avatars/player.gif" "left" "Mom...? Mom, is that... is that really you?!">>
+                            <<chat "You" "image/avatars/player.webp" "left" "Mom...? Mom, is that... is that really you?!">>
                             <br><br>
                             At the sound of your voice, she snaps her head up from the grease-pencil map, jaw tight and ready to bark an order—and completely freezes. Her eyes widen in stunned, disbelieving horror, then flood with tears. The grease pencil slips from her limp fingers, hitting the blotter and rolling onto the linoleum with a soft click.
                             <br><br>
-                            <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.gif" "right" "...$firstName...?! God in heaven... $firstName! You're alive?!">>
+                            <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.webp" "right" "...$firstName...?! God in heaven... $firstName! You're alive?!">>
                             <br><br>
                             She scrambles around the mahogany desk, catching her hip on the sharp corner, and throws her arms around you in a desperate, bruising embrace. Her hands tremble uncontrollably against your soaked jacket, clutching at your shoulder blades, her face buried into your neck as if checking that you are warm, breathing flesh.
                             <br><br>
-                            <<chat "You" "image/avatars/player.gif" "left" "God, Mom, it's really you... I thought—when the sirens blared and the phones died, I thought you and Dad never made it out of the city...">>
+                            <<chat "You" "image/avatars/player.webp" "left" "God, Mom, it's really you... I thought—when the sirens blared and the phones died, I thought you and Dad never made it out of the city...">>
                             <br><br>
                             <<if _arrivedLate>>
-                                <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.gif" "right" "You're breathing... you're really here! When dawn broke and the sky over the city was red with fire, we thought—we thought you were trapped in the high-rise district when the power died! Tell me you're not hurt! Where were you all night?!">>
+                                <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.webp" "right" "You're breathing... you're really here! When dawn broke and the sky over the city was red with fire, we thought—we thought you were trapped in the high-rise district when the power died! Tell me you're not hurt! Where were you all night?!">>
                             <<else>>
-                                <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.gif" "right" "You made it through the storm... oh God, you made it. When the bridges blew and the sirens cut out, we thought we'd left you behind in that nightmare to die! Look at me—tell me you're not bitten!">>
+                                <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.webp" "right" "You made it through the storm... oh God, you made it. When the bridges blew and the sirens cut out, we thought we'd left you behind in that nightmare to die! Look at me—tell me you're not bitten!">>
                             <</if>>
                             <br><br>
-                            <<chat "You" "image/avatars/player.gif" "left" "I'm clean, Mom. Look at me—I'm not bitten. The highway was a nightmare, but I found a way through the valley. I'm right here.">>
+                            <<chat "You" "image/avatars/player.webp" "left" "I'm clean, Mom. Look at me—I'm not bitten. The highway was a nightmare, but I found a way through the valley. I'm right here.">>
                             <<if _hasCompanions>>
                                 <br><br>
-                                <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.gif" "right" "The guys at the gate told me you brought survivors in behind you... you kept other people alive on that road... oh God, my baby... I am so proud of you...">>
+                                <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.webp" "right" "The guys at the gate told me you brought survivors in behind you... you kept other people alive on that road... oh God, my baby... I am so proud of you...">>
                             <</if>>
                         <<elseif $anchor == "partner_f" or $anchor == "partner_m" or $anchor == "partner_nb">>
                             She looks up with cold tactical scrutiny—until her gaze fixes on your face. A sharp, stunned gasp catches in her throat.
                             <br><br>
-                            <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "Wait... Reyes, who is this? Merciful God... you're $firstName. _leaderName had a photo of you tucked in <<print _poss>> jacket... <<print _subj>> wouldn't stop showing it to every guard at the gate!">>
+                            <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "Wait... Reyes, who is this? Merciful God... you're $firstName. _leaderName had a photo of you tucked in <<print _poss>> jacket... <<print _subj>> wouldn't stop showing it to every guard at the gate!">>
                             <br><br>
                             <<if $anchor == "partner_nb">>
-                                <<chat "You" "image/avatars/player.gif" "left" "Evelyn! Where's _leaderName? Please—tell me they're here! Are they safe?!">>
+                                <<chat "You" "image/avatars/player.webp" "left" "Evelyn! Where's _leaderName? Please—tell me they're here! Are they safe?!">>
                                 <br><br>
-                                <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "They made it in last night with the first convoy, $firstName! They brought twenty refugees through the front gates... spent all night by the radio console scanning for your voice until their vocal cords gave out. They swore you were still alive!">>
+                                <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "They made it in last night with the first convoy, $firstName! They brought twenty refugees through the front gates... spent all night by the radio console scanning for your voice until their vocal cords gave out. They swore you were still alive!">>
                                 <br><br>
-                                <<chat "You" "image/avatars/player.gif" "left" "Thank God... when the cell towers cut on the interstate, I thought I'd lost them forever.">>
+                                <<chat "You" "image/avatars/player.webp" "left" "Thank God... when the cell towers cut on the interstate, I thought I'd lost them forever.">>
                             <<else>>
-                                <<chat "You" "image/avatars/player.gif" "left" "Evelyn! Where's _leaderName? Please—tell me <<print _subj>>'s here! Is <<print _subj>> safe?!">>
+                                <<chat "You" "image/avatars/player.webp" "left" "Evelyn! Where's _leaderName? Please—tell me <<print _subj>>'s here! Is <<print _subj>> safe?!">>
                                 <br><br>
-                                <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "<<print _capSubj>> made it in last night with the first convoy, $firstName! <<print _capSubj>> brought twenty refugees through the front gates... spent all night by the radio console scanning for your voice until <<print _poss>> vocal cords gave out. <<print _capSubj>> swore you were still alive!">>
+                                <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "<<print _capSubj>> made it in last night with the first convoy, $firstName! <<print _capSubj>> brought twenty refugees through the front gates... spent all night by the radio console scanning for your voice until <<print _poss>> vocal cords gave out. <<print _capSubj>> swore you were still alive!">>
                                 <br><br>
-                                <<chat "You" "image/avatars/player.gif" "left" "Thank God... when the cell towers cut on the interstate, I thought I'd lost <<print _obj>> forever.">>
+                                <<chat "You" "image/avatars/player.webp" "left" "Thank God... when the cell towers cut on the interstate, I thought I'd lost <<print _obj>> forever.">>
                             <</if>>
                             <<if _hasCompanions>>
                                 <br><br>
-                                <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "And the checkpoint told me you brought survivors in behind you. _leaderName knew you'd be out there keeping people alive.">>
+                                <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "And the checkpoint told me you brought survivors in behind you. _leaderName knew you'd be out there keeping people alive.">>
                             <</if>>
                         <<else>>
                             She looks up from the maps, her gaze assessing you with cold, hard scrutiny.
                             <br><br>
-                            <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "Reyes. You're back on two feet. And who's this with you?">>
+                            <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "Reyes. You're back on two feet. And who's this with you?">>
                             <br><br>
-                            <<chat "Reyes" "image/avatars/reyes.gif" "right" "Survivor off the valley highway, ma'am. Cleared road blocks, watched my six, pulled me out of two ambushes. We need Commander Hayes right now.">>
+                            <<chat "Reyes" "image/avatars/reyes.webp" "right" "Survivor off the valley highway, ma'am. Cleared road blocks, watched my six, pulled me out of two ambushes. We need Commander Hayes right now.">>
                             <br><br>
-                            <<chat "You" "image/avatars/player.gif" "left" "Reyes told me this school was a fortified safe haven. But the guards outside look like they're barely holding the gates together.">>
+                            <<chat "You" "image/avatars/player.webp" "left" "Reyes told me this school was a fortified safe haven. But the guards outside look like they're barely holding the gates together.">>
                             <br><br>
-                            <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "We are holding by the skin of our teeth. If you survived Route 9, you're welcome to dry blankets and hot rations—provided you can pull your weight.">>
+                            <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "We are holding by the skin of our teeth. If you survived Route 9, you're welcome to dry blankets and hot rations—provided you can pull your weight.">>
                             <<if _hasCompanions>>
                                 <br><br>
-                                <<chat "Reyes" "image/avatars/reyes.gif" "right" "They also escorted a civilian vehicle through the checkpoint, ma'am. Good people under fire.">>
+                                <<chat "Reyes" "image/avatars/reyes.webp" "right" "They also escorted a civilian vehicle through the checkpoint, ma'am. Good people under fire.">>
                             <</if>>
                         <</if>>
                     <</replace>>
@@ -202,65 +202,65 @@
                         <<if $anchor == "parents">>
                             You pull back from her arms, your eyes scanning the room. A second command chair sits empty by the radio console; a cold tin mug sits beside an unread clipboard.
                             <br><br>
-                            <<chat "You" "image/avatars/player.gif" "left" "Mom... where's Dad? Why isn't he here?">>
+                            <<chat "You" "image/avatars/player.webp" "left" "Mom... where's Dad? Why isn't he here?">>
                             <br><br>
                             Her fingers tighten abruptly on your wrists. Her expression shatters into raw, sick terror.
                             <br><br>
                             <<if _arrivedLate>>
-                                <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.gif" "right" "Your father... God, $firstName, when dawn broke and you still hadn't shown up, he was losing his mind. He was up on the roof in the freezing rain all night with a spotlight, praying every engine rumble on the road was you. But when sunrise hit, the main generator died... the infirmary down in the gym lost heat. Sick people and kids were freezing. He couldn't just sit here doing nothing. He took the flatbed out to Route 9 at first light to get diesel!">>
+                                <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.webp" "right" "Your father... God, $firstName, when dawn broke and you still hadn't shown up, he was losing his mind. He was up on the roof in the freezing rain all night with a spotlight, praying every engine rumble on the road was you. But when sunrise hit, the main generator died... the infirmary down in the gym lost heat. Sick people and kids were freezing. He couldn't just sit here doing nothing. He took the flatbed out to Route 9 at first light to get diesel!">>
                             <<else>>
-                                <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.gif" "right" "Your father... oh God, $firstName, you missed him by twenty minutes! Twenty minutes! When the morning fog rolled in, he took a flatbed down Route 9 to siphon diesel from an abandoned tanker before the infected started moving. If you'd pulled into the gate just a little sooner, he'd be standing right here!">>
+                                <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.webp" "right" "Your father... oh God, $firstName, you missed him by twenty minutes! Twenty minutes! When the morning fog rolled in, he took a flatbed down Route 9 to siphon diesel from an abandoned tanker before the infected started moving. If you'd pulled into the gate just a little sooner, he'd be standing right here!">>
                             <</if>>
                             <br><br>
-                            <<chat "You" "image/avatars/player.gif" "left" "He went back out onto Route 9?! Mom, that road is a slaughterhouse—there are swarms packed at every overpass! Why the hell did you let him leave?!">>
+                            <<chat "You" "image/avatars/player.webp" "left" "He went back out onto Route 9?! Mom, that road is a slaughterhouse—there are swarms packed at every overpass! Why the hell did you let him leave?!">>
                             <br><br>
-                            <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.gif" "right" "Because he's Arthur! You know your father—he couldn't just sit by while people froze to death! He swore he'd be back before breakfast with enough fuel to keep the clinic heaters going. He took Miller and two guys from the gate with him...">>
+                            <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.webp" "right" "Because he's Arthur! You know your father—he couldn't just sit by while people froze to death! He swore he'd be back before breakfast with enough fuel to keep the clinic heaters going. He took Miller and two guys from the gate with him...">>
                         <<elseif $anchor == "partner_f" or $anchor == "partner_m" or $anchor == "partner_nb">>
                             You look across the room, your stomach dropping when you see only Evelyn and Reyes.
                             <br><br>
                             <<if $anchor == "partner_nb">>
-                                <<chat "You" "image/avatars/player.gif" "left" "Wait... if they're here, where are they right now? Why aren't they in the office?">>
+                                <<chat "You" "image/avatars/player.webp" "left" "Wait... if they're here, where are they right now? Why aren't they in the office?">>
                                 <br><br>
                                 Evelyn's relief instantly hardens into a mask of grim dread.
                                 <br><br>
                                 <<if _arrivedLate>>
-                                    <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "They aren't here right now, $firstName. They stayed up all night watching the road, running down to the gate every time an engine revved. But when our generator died at sunrise and the infirmary lost power, they took a crew down Route 9 to get fuel rather than lose their mind waiting.">>
+                                    <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "They aren't here right now, $firstName. They stayed up all night watching the road, running down to the gate every time an engine revved. But when our generator died at sunrise and the infirmary lost power, they took a crew down Route 9 to get fuel rather than lose their mind waiting.">>
                                 <<else>>
-                                    <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "They aren't here, $firstName. You missed them by less than half an hour. When the pre-dawn fog rolled in, they took a crew down Route 9 to siphon fuel before the infected on the highway started moving. If you'd pulled in twenty minutes sooner, you would've caught them at the loading dock.">>
+                                    <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "They aren't here, $firstName. You missed them by less than half an hour. When the pre-dawn fog rolled in, they took a crew down Route 9 to siphon fuel before the infected on the highway started moving. If you'd pulled in twenty minutes sooner, you would've caught them at the loading dock.">>
                                 <</if>>
                                 <br><br>
-                                <<chat "You" "image/avatars/player.gif" "left" "Route 9 is a graveyard! Why the hell would you let them go out there?!">>
+                                <<chat "You" "image/avatars/player.webp" "left" "Route 9 is a graveyard! Why the hell would you let them go out there?!">>
                                 <br><br>
-                                <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "Because our clinic was freezing, the heaters were failing, and _leaderName refused to let anyone else shoulder that risk. They took an armored flatbed and three volunteers from the gate...">>
+                                <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "Because our clinic was freezing, the heaters were failing, and _leaderName refused to let anyone else shoulder that risk. They took an armored flatbed and three volunteers from the gate...">>
                             <<else>>
-                                <<chat "You" "image/avatars/player.gif" "left" "Wait... if <<print _subj>>'s here, where is <<print _subj>> right now? Why isn't <<print _subj>> in the office?">>
+                                <<chat "You" "image/avatars/player.webp" "left" "Wait... if <<print _subj>>'s here, where is <<print _subj>> right now? Why isn't <<print _subj>> in the office?">>
                                 <br><br>
                                 Evelyn's relief instantly hardens into a mask of grim dread.
                                 <br><br>
                                 <<if _arrivedLate>>
-                                    <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "<<print _capSubj>> isn't here right now, $firstName. <<print _capSubj>> stayed up all night watching the road, running down to the gate every time an engine revved. But when our generator died at sunrise and the infirmary lost power, <<print _subj>> took a crew down Route 9 to get fuel rather than lose <<print _poss>> mind waiting.">>
+                                    <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "<<print _capSubj>> isn't here right now, $firstName. <<print _capSubj>> stayed up all night watching the road, running down to the gate every time an engine revved. But when our generator died at sunrise and the infirmary lost power, <<print _subj>> took a crew down Route 9 to get fuel rather than lose <<print _poss>> mind waiting.">>
                                 <<else>>
-                                    <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "<<print _capSubj>> isn't here, $firstName. You missed <<print _obj>> by less than half an hour. When the pre-dawn fog rolled in, <<print _subj>> took a crew down Route 9 to siphon fuel before the infected on the highway started moving. If you'd pulled in twenty minutes sooner, you would've caught <<print _obj>> at the loading dock.">>
+                                    <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "<<print _capSubj>> isn't here, $firstName. You missed <<print _obj>> by less than half an hour. When the pre-dawn fog rolled in, <<print _subj>> took a crew down Route 9 to siphon fuel before the infected on the highway started moving. If you'd pulled in twenty minutes sooner, you would've caught <<print _obj>> at the loading dock.">>
                                 <</if>>
                                 <br><br>
-                                <<chat "You" "image/avatars/player.gif" "left" "Route 9 is a graveyard! Why the hell would you let <<print _obj>> go out there?!">>
+                                <<chat "You" "image/avatars/player.webp" "left" "Route 9 is a graveyard! Why the hell would you let <<print _obj>> go out there?!">>
                                 <br><br>
-                                <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "Because our clinic was freezing, the heaters were failing, and _leaderName refused to let anyone else shoulder that risk. <<print _capSubj>> took an armored flatbed and three volunteers from the gate...">>
+                                <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "Because our clinic was freezing, the heaters were failing, and _leaderName refused to let anyone else shoulder that risk. <<print _capSubj>> took an armored flatbed and three volunteers from the gate...">>
                             <</if>>
                         <<else>>
                             Reyes steps up to the desk, her expression tightening.
                             <br><br>
-                            <<chat "Reyes" "image/avatars/reyes.gif" "right" "Where is Commander Hayes, Evelyn? He was supposed to be coordinating the defenses.">>
+                            <<chat "Reyes" "image/avatars/reyes.webp" "right" "Where is Commander Hayes, Evelyn? He was supposed to be coordinating the defenses.">>
                             <br><br>
                             <<if _arrivedLate>>
-                                <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "Hayes waited as long as he could for your report, Reyes. But when our fuel reserves hit zero at dawn, he took a team down Route 9 to get diesel.">>
+                                <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "Hayes waited as long as he could for your report, Reyes. But when our fuel reserves hit zero at dawn, he took a team down Route 9 to get diesel.">>
                             <<else>>
-                                <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "Hayes isn't here, Reyes. You missed him by twenty minutes. He used the morning fog to slip down Route 9 before the infected on the highway started roaming.">>
+                                <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "Hayes isn't here, Reyes. You missed him by twenty minutes. He used the morning fog to slip down Route 9 before the infected on the highway started roaming.">>
                             <</if>>
                             <br><br>
-                            <<chat "You" "image/avatars/player.gif" "left" "We just drove through the valley pass. Route 9 is crawling with infected and armed scavengers. If your commander took people down there, they walked into a meat grinder.">>
+                            <<chat "You" "image/avatars/player.webp" "left" "We just drove through the valley pass. Route 9 is crawling with infected and armed scavengers. If your commander took people down there, they walked into a meat grinder.">>
                             <br><br>
-                            <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "Hayes knew the risk. The clinic was freezing and people were dying. But their check-in was due ten minutes ago...">>
+                            <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "Hayes knew the risk. The clinic was freezing and people were dying. But their check-in was due ten minutes ago...">>
                         <</if>>
                     <</replace>>
 
@@ -277,7 +277,7 @@
                             </div>
                             <hr style="border-color:#662222; margin:6px 0 12px 0;">
                             
-                            <<chat "Chloe (Radio Room)" "image/avatars/radio_chloe.gif" "right" "Command, Radio Room! It's the Route 9 team—they just broke silence, screaming for help! Patching the channel through now!">>
+                            <<chat "Chloe (Radio Room)" "image/avatars/radio_chloe.webp" "right" "Command, Radio Room! It's the Route 9 team—they just broke silence, screaming for help! Patching the channel through now!">>
                             <br>
 
                             <<if $anchor == "parents">>
@@ -285,13 +285,13 @@
                                     [HEAVY SQUELCH... VIOLENT AUTOMATIC SHOTGUN BLASTS CRACKING OFF CERAMIC TILE]
                                 </div>
                                 <br>
-                                <<chat "Dad" "image/avatars/leader_dad.gif" "right" "Evelyn?! Evie, can you hear me through the—[CONCUSSIVE SHOTGUN ROAR]... damn it! They boxed the truck at the 7-Eleven pumps! Snipers on the car wash roof! Miller took buckshot through the chest—he's bleeding out!">>
+                                <<chat "Dad" "image/avatars/leader_dad.webp" "right" "Evelyn?! Evie, can you hear me through the—[CONCUSSIVE SHOTGUN ROAR]... damn it! They boxed the truck at the 7-Eleven pumps! Snipers on the car wash roof! Miller took buckshot through the chest—he's bleeding out!">>
                                 <br>
-                                <<chat "Dad" "image/avatars/leader_dad.gif" "right" "The gunfire pulled the whole highway down on us! We're wedged inside the walk-in dairy cooler... hundreds of infected slamming against the display glass! The metal frame is bowing inward, Evelyn! It's starring... it's about to burst!">>
+                                <<chat "Dad" "image/avatars/leader_dad.webp" "right" "The gunfire pulled the whole highway down on us! We're wedged inside the walk-in dairy cooler... hundreds of infected slamming against the display glass! The metal frame is bowing inward, Evelyn! It's starring... it's about to burst!">>
                                 <br>
-                                <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.gif" "right" "Arthur! Arthur, hold on! Neal is here! Listen to me—Neal is alive, he's standing right in front of me! Hold that door!">>
+                                <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.webp" "right" "Arthur! Arthur, hold on! Neal is here! Listen to me—Neal is alive, he's standing right in front of me! Hold that door!">>
                                 <br>
-                                <<chat "Dad" "image/avatars/leader_dad.gif" "right" "[SQUELCH... RAGGED, SHAKEN GASP] ...Neal?! Neal's... oh God... my boy's alive... [TERRIFYING METALLIC GROAN, GLASS SPRAYING, ROARS] Evie, NO! Do NOT open the gates! Don't send the guards out here! Keep the school sealed! Neal... Neal, don't let her come out here... take care of your mother... tell her I—[BLINDING STATIC SCREECH, TRANSMISSION SNAPPED]">>
+                                <<chat "Dad" "image/avatars/leader_dad.webp" "right" "[SQUELCH... RAGGED, SHAKEN GASP] ...Neal?! Neal's... oh God... my boy's alive... [TERRIFYING METALLIC GROAN, GLASS SPRAYING, ROARS] Evie, NO! Do NOT open the gates! Don't send the guards out here! Keep the school sealed! Neal... Neal, don't let her come out here... take care of your mother... tell her I—[BLINDING STATIC SCREECH, TRANSMISSION SNAPPED]">>
 
                             <<elseif $anchor == "partner_f" or $anchor == "partner_m" or $anchor == "partner_nb">>
                                 <div style="color:#ffdddd; font-style:italic; line-height:1.6; padding:8px 12px; background:rgba(0,0,0,0.3); border-left:2px solid #ff4444;">
@@ -302,7 +302,7 @@
                                 <br>
                                 <<chat _leaderName _leaderAvatar "right" "We're trapped in the back... the commercial dairy cooler! Miller's down on the tiles—I'm bracing the handle with my shoulder, firing through the wire mesh! My hands are shaking so bad... I'm down to my last six rounds!">>
                                 <br>
-                                <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "_leaderName, hold on! $firstName is right here—standing right beside me! We are coming for you!">>
+                                <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "_leaderName, hold on! $firstName is right here—standing right beside me! We are coming for you!">>
                                 <br>
                                 <<chat _leaderName _leaderAvatar "right" "[SQUELCH... CHOKED, BROKEN CRY] ...$firstName?! You're... you're breathing?! Oh God... [TERRIFYING ROAR, GLASS CRACKING VIOLENTLY] The cooler doors are bowing inward! There are too many of them! $firstName, please... don't let them break through this glass—[BURST OF GUNFIRE, PIERCING FEEDBACK, CUTS DEAD]">>
 
@@ -311,9 +311,9 @@
                                     [HIGH-PITCHED SQUELCH... HEAVY AUTOMATIC WEAPONS FIRE ECHOING IN ENCLOSED SPACE]
                                 </div>
                                 <br>
-                                <<chat "Commander Hayes" "image/avatars/leader_default_hayes.gif" "right" "Command, Hayes! MAYDAY, MAYDAY! Route 9 commercial strip—the 7-Eleven! Armed hostiles pinned our flatbed at the pumps! The exchange pulled a horde off the expressway!">>
+                                <<chat "Commander Hayes" "image/avatars/leader_default_hayes.webp" "right" "Command, Hayes! MAYDAY, MAYDAY! Route 9 commercial strip—the 7-Eleven! Armed hostiles pinned our flatbed at the pumps! The exchange pulled a horde off the expressway!">>
                                 <br>
-                                <<chat "Commander Hayes" "image/avatars/leader_default_hayes.gif" "right" "Miller took a slug to the lung, we're pushed into the walk-in cooler! Scavs suppressing the front while infected are hammering the display windows! The frame is warping—we have under twenty rounds left! We need someone to hit their flank NOW, or we're slaughtered! [EXPLOSIVE IMPACT, RADIO GOES DEAD]">>
+                                <<chat "Commander Hayes" "image/avatars/leader_default_hayes.webp" "right" "Miller took a slug to the lung, we're pushed into the walk-in cooler! Scavs suppressing the front while infected are hammering the display windows! The frame is warping—we have under twenty rounds left! We need someone to hit their flank NOW, or we're slaughtered! [EXPLOSIVE IMPACT, RADIO GOES DEAD]">>
                             <</if>>
                         </div>
                     <</replace>>
@@ -327,46 +327,46 @@
                         <<if $anchor == "parents">>
                             She turns toward you, her voice a cracked, horrifying whisper.
                             <br><br>
-                            <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.gif" "right" "He told us not to open the gates... he's giving up. He's sitting in the dark waiting for that glass to cave in. But if I pull the guards off the fence, five hundred people in this gymnasium will be torn to shreds.">>
+                            <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.webp" "right" "He told us not to open the gates... he's giving up. He's sitting in the dark waiting for that glass to cave in. But if I pull the guards off the fence, five hundred people in this gymnasium will be torn to shreds.">>
                             <br><br>
                             She grabs your wrists with bruising force, her eyes wild with grief.
                             <br><br>
-                            <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.gif" "right" "$firstName... your truck is the only vehicle warm and running. Please. Don't let him die in that cold room. Bring your father back to me!">>
+                            <<chat "Mom (Evelyn)" "image/avatars/matriarch_evelyn.webp" "right" "$firstName... your truck is the only vehicle warm and running. Please. Don't let him die in that cold room. Bring your father back to me!">>
                             <br><br>
                             You pull away, your chest burning with shallow, violent breaths. Your knuckles are clenched white. You look directly at Reyes.
                             <br><br>
-                            <<chat "You" "image/avatars/player.gif" "left" "Keys. Reyes, where are the truck keys?">>
+                            <<chat "You" "image/avatars/player.webp" "left" "Keys. Reyes, where are the truck keys?">>
                             <br><br>
-                            <<chat "Reyes" "image/avatars/reyes.gif" "right" "Partner, that 7-Eleven is a kill box—">>
+                            <<chat "Reyes" "image/avatars/reyes.webp" "right" "Partner, that 7-Eleven is a kill box—">>
                             <br><br>
-                            <<chat "You" "image/avatars/player.gif" "left" "I didn't crawl forty miles across an ash-covered city just to stand in this office and listen to my dad die through a speaker. Tell Vance to open that armory cage. We're moving. Right now.">>
+                            <<chat "You" "image/avatars/player.webp" "left" "I didn't crawl forty miles across an ash-covered city just to stand in this office and listen to my dad die through a speaker. Tell Vance to open that armory cage. We're moving. Right now.">>
                         <<elseif $anchor == "partner_f" or $anchor == "partner_m" or $anchor == "partner_nb">>
                             Your hand slams into the desk so hard the maps rattle. The dead hiss from the speaker feels like poison in your ears.
                             <br><br>
-                            <<chat "You" "image/avatars/player.gif" "left" "How far is that 7-Eleven?">>
+                            <<chat "You" "image/avatars/player.webp" "left" "How far is that 7-Eleven?">>
                             <br><br>
-                            <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "Four miles down Route 9. By the car wash junction. But that highway is a graveyard—our guards can't leave the barricade or the school will fall.">>
+                            <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "Four miles down Route 9. By the car wash junction. But that highway is a graveyard—our guards can't leave the barricade or the school will fall.">>
                             <br><br>
                             <<if $anchor == "partner_nb">>
-                                <<chat "You" "image/avatars/player.gif" "left" "I don't give a damn about the road. They're bracing that cooler with one shoulder and six bullets. Reyes, tell me your scout truck has fuel.">>
+                                <<chat "You" "image/avatars/player.webp" "left" "I don't give a damn about the road. They're bracing that cooler with one shoulder and six bullets. Reyes, tell me your scout truck has fuel.">>
                             <<else>>
-                                <<chat "You" "image/avatars/player.gif" "left" "I don't give a damn about the road. <<print _capSubj>>'s bracing that cooler with one shoulder and six bullets. Reyes, tell me your scout truck has fuel.">>
+                                <<chat "You" "image/avatars/player.webp" "left" "I don't give a damn about the road. <<print _capSubj>>'s bracing that cooler with one shoulder and six bullets. Reyes, tell me your scout truck has fuel.">>
                             <</if>>
                             <br><br>
-                            <<chat "Reyes" "image/avatars/reyes.gif" "right" "Half a tank and an armored bull-bar. If we're hitting that alley, we roll this second before that display glass shatters.">>
+                            <<chat "Reyes" "image/avatars/reyes.webp" "right" "Half a tank and an armored bull-bar. If we're hitting that alley, we roll this second before that display glass shatters.">>
                             <br><br>
-                            <<chat "You" "image/avatars/player.gif" "left" "Tell Vance to give me my gear and whatever heavy fire he's got downstairs. We're rolling out.">>
+                            <<chat "You" "image/avatars/player.webp" "left" "Tell Vance to give me my gear and whatever heavy fire he's got downstairs. We're rolling out.">>
                         <<else>>
                             She slams both fists onto the desk, her expression dark as iron.
                             <br><br>
-                            <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.gif" "right" "God damn it! If we pull the guards off the fence, the infected will breach the front doors. Reyes, take $firstName and the truck. Hit those scavengers from the rear car wash alley, blow the horde off the cooler glass, and drag Hayes out!">>
+                            <<chat "Matriarch Evelyn" "image/avatars/matriarch_evelyn.webp" "right" "God damn it! If we pull the guards off the fence, the infected will breach the front doors. Reyes, take $firstName and the truck. Hit those scavengers from the rear car wash alley, blow the horde off the cooler glass, and drag Hayes out!">>
                             <br><br>
-                            <<chat "You" "image/avatars/player.gif" "left" "If we're heading back into that meat grinder, I need my weapons back and whatever heavy fire you have. Tell Vance to open the steel cage before I kick it in myself.">>
+                            <<chat "You" "image/avatars/player.webp" "left" "If we're heading back into that meat grinder, I need my weapons back and whatever heavy fire you have. Tell Vance to open the steel cage before I kick it in myself.">>
                         <</if>>
                         <br><br>
                         Officer Reyes pulls her slide back with a sharp, heavy metallic snap, checking the brass in the chamber.
                         <br><br>
-                        <<chat "Reyes" "image/avatars/reyes.gif" "right" "You heard the Matriarch. Grab your gear, partner—we hit Vance's armory and roll before that glass gives way.">>
+                        <<chat "Reyes" "image/avatars/reyes.webp" "right" "You heard the Matriarch. Grab your gear, partner—we hit Vance's armory and roll before that glass gives way.">>
                     <</replace>>
 
                     /* OBJECTIVE LIFECYCLE */

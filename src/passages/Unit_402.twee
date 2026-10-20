@@ -48,7 +48,7 @@
                 <br><br>
                 And there's a smell. Not decay. Something sharper. Chemical. Clinical. Like a hospital corridor scrubbed too clean with industrial bleach.
                 <br><br>
-                <<chat "You" "image/avatars/player.gif" "left" "Chopin. And bleach. Why would someone be deep-cleaning right now?">>
+                <<chat "You" "image/avatars/player.webp" "left" "Chopin. And bleach. Why would someone be deep-cleaning right now?">>
             </div>
 
             <div class="choice-menu" style="max-width: 700px; width: 100%; margin: 0 auto;">
@@ -187,7 +187,7 @@
 
             <!-- AI GENERATED IMAGE HERE -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-                <img src="image/act1/unit402.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/act1/unit402.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
 
             <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -222,7 +222,7 @@
                     The music is Chopin. We wanted the last thing we felt to be peace. May God forgive us."
                 </div>
 
-                <<chat "You" "image/avatars/player.gif" "left" "Airborne? Pumping gas? That... that was a conspiracy rumor floating around the internet before the cell towers fell. It wasn't real. My God... they did this for nothing.">>
+                <<chat "You" "image/avatars/player.webp" "left" "Airborne? Pumping gas? That... that was a conspiracy rumor floating around the internet before the cell towers fell. It wasn't real. My God... they did this for nothing.">>
                 <br>
                 There is a small caliber revolver on the floor near Mr. Anderson's foot. He must have loaded it, panicked, and realized he couldn't shoot his own family. He chose the poison instead.
             </div>

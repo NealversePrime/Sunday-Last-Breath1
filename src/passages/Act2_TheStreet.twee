@@ -34,7 +34,7 @@
 
             <!-- IMAGE 1: THE MOB -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-                <img src="image/Act2Street/themob.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act2Street/themob.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
             
             <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-red); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -58,11 +58,11 @@
                                         <br><br>
                                         He bends over, hands on his knees, panting hard. He's bleeding from a scrape on his cheek, but his dark eyes are wide and sharply focused. He gasps, looking back at the stampede.
                                         <br><br>
-                                        <<chat "Vane" "image/avatars/vane.gif" "right" "Okay... okay. Not exactly the VIP exit I'm used to.">>
+                                        <<chat "Vane" "image/avatars/vane.webp" "right" "Okay... okay. Not exactly the VIP exit I'm used to.">>
                                         <br>
                                         He tries to joke, but his voice shakes. He looks at you, his facade dropping completely.
                                         <br><br>
-                                        <<chat "Vane" "image/avatars/vane.gif" "right" "This whole city is a death trap. My followers always said I was dramatic about crowds, but this is insane. We can't stay here.">>
+                                        <<chat "Vane" "image/avatars/vane.webp" "right" "This whole city is a death trap. My followers always said I was dramatic about crowds, but this is insane. We can't stay here.">>
                                     <</if>>
 
                                     /* --- COMPANION CHECK: MAYA --- */
@@ -70,11 +70,11 @@
                                         <<if $vane_status == "joined">><br><br><</if>>
                                         <span style="color:var(--accent-gold);">Maya</span> staggers into the alleyway right after you, her arms wrapped fiercely around Lily. She presses the little girl's face into her coat, shielding her from the horrors on the street. 
                                         <br><br>
-                                        <<chat "Maya" "image/avatars/maya.gif" "right" "I've got you, baby. Auntie Maya's got you. Just don't look back there.">>
+                                        <<chat "Maya" "image/avatars/maya.webp" "right" "I've got you, baby. Auntie Maya's got you. Just don't look back there.">>
                                         <br>
                                         She looks up at you, her chest heaving. The weight of her dead sister's promise is written all over her exhausted face.
                                         <br><br>
-                                        <<chat "Maya" "image/avatars/maya.gif" "right" "We need to get off the streets. Now. If that crowd shifts into this alley, we'll be trampled.">>
+                                        <<chat "Maya" "image/avatars/maya.webp" "right" "We need to get off the streets. Now. If that crowd shifts into this alley, we'll be trampled.">>
                                     <</if>>
 
                                     <<if $vane_status != "joined" and $maya_status != "joined">>
@@ -123,7 +123,7 @@
 
             <!-- IMAGE 2: THE JUMPSCARE -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid var(--accent-red); overflow: hidden; position: relative; box-shadow: 0 0 15px rgba(138,28,28,0.4);">
-                <img src="image/Act2Street/alley_jumpscare.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act2Street/alley_jumpscare.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
             
             <<run window.shakeScreen(30)>>
@@ -260,7 +260,7 @@
 
             <!-- IMAGE 3: THE GETAWAY CAR -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid var(--accent-blue); overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(93, 141, 181, 0.4);">
-                <img src="image/Act2Street/blue_sedan.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act2Street/blue_sedan.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
 
             <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -342,7 +342,7 @@
                         <br><br>
                         Vane stares at you, a slow, genuinely impressed smile spreading across his exhausted face.
                         <br><br>
-                        <<chat "Vane" "image/avatars/vane.gif" "right" "Okay. Remind me never to underestimate you. And here I thought my unboxing videos were slick.">>
+                        <<chat "Vane" "image/avatars/vane.webp" "right" "Okay. Remind me never to underestimate you. And here I thought my unboxing videos were slick.">>
                     <</if>>
                     
                     <div class="choice-menu" style="margin-top:20px;">
@@ -381,7 +381,7 @@
                     <br><br>
                     Vane smirks, a sudden, sharp flash of confidence cutting through his terror. He wraps his jacket around his elbow and smashes the driver's window inward, clearing the glass quickly before sliding into the seat.
                     <br><br>
-                    <<chat "Vane" "image/avatars/vane.gif" "right" "Watch the paint.">>
+                    <<chat "Vane" "image/avatars/vane.webp" "right" "Watch the paint.">>
                     
                     <div class="choice-menu" style="margin-top:20px;">
                         <button style="border-left-color: var(--accent-red) !important; background: rgba(138,28,28,0.2);">
@@ -389,13 +389,13 @@
                                 <<replace "#vn-text-vane">>
                                     He pulls a multi-tool from his pocket, wedges it under the steering column, and pops the plastic casing with practiced ease. 
                                     <br><br>
-                                    <<chat "Vane" "image/avatars/vane.gif" "right" "Misspent youth. Before the brand deals and the sponsorships, I hung out with a very different crowd.">>
+                                    <<chat "Vane" "image/avatars/vane.webp" "right" "Misspent youth. Before the brand deals and the sponsorships, I hung out with a very different crowd.">>
                                     <br>
                                     He strips two wires, twists them together, and the engine roars to life. But the roaring engine and the shattered glass shatter the silence of the parking lot. 
                                     <br><br>
                                     From the darkness, three infected sprint toward the sound. Vane ducks lower inside the car. 
                                     <br><br>
-                                    <<chat "Vane" "image/avatars/vane.gif" "right" "I'll get it in gear! Just keep them off me for thirty seconds!">>
+                                    <<chat "Vane" "image/avatars/vane.webp" "right" "I'll get it in gear! Just keep them off me for thirty seconds!">>
                                     
                                     <div class="choice-menu" style="margin-top:20px;">
                                         <button style="border-left-color: var(--accent-red) !important;">

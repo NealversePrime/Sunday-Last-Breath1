@@ -11,7 +11,7 @@
             GROUND FLOOR — EMERGENCY INFIRMARY
         </div>
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-            <img src="image/Act3_Timberline/infirmary.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+            <img src="image/Act3_Timberline/infirmary.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
         </div>
         <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
             <span id="vn-infirmary-main">
@@ -28,11 +28,11 @@
         <br><br>
         He hears your footsteps and slowly looks up.
         <br><br>
-        <<chat "Exhausted Doctor" "image/avatars/drthorne.gif" "right" "If you're injured, sit against the wall and wait. If you're armed, keep the weapon pointed at the floor.">>
+        <<chat "Exhausted Doctor" "image/avatars/drthorne.webp" "right" "If you're injured, sit against the wall and wait. If you're armed, keep the weapon pointed at the floor.">>
         <br><br>
         He tosses the bloody rag into a bin and stands up, wincing as his knees pop.
         <br><br>
-        <<chat "Dr. Thorne" "image/avatars/drthorne.gif" "right" "Dr. Adrian Thorne. I used to work at St. Gabriel's. Now I work wherever people are still breathing. The long night is over, but infection doesn't sleep.">>
+        <<chat "Dr. Thorne" "image/avatars/drthorne.webp" "right" "Dr. Adrian Thorne. I used to work at St. Gabriel's. Now I work wherever people are still breathing. The long night is over, but infection doesn't sleep.">>
     <<else>>
         The smell reaches you before you fully enter the room.
         <br><br>
@@ -48,21 +48,21 @@
         <br><br>
         The wounded survivor lets out a weak cry. The man immediately leans closer.
         <br><br>
-        <<chat "Unknown Doctor" "image/avatars/drthorne.gif" "right" "Stay with me. You hear me? Keep your eyes open.">>
+        <<chat "Unknown Doctor" "image/avatars/drthorne.webp" "right" "Stay with me. You hear me? Keep your eyes open.">>
         <br><br>
         You take another step into the room. The floorboard creaks.
         <br><br>
-        <<chat "Unknown Doctor" "image/avatars/drthorne.gif" "right" "Stop there.">>
+        <<chat "Unknown Doctor" "image/avatars/drthorne.webp" "right" "Stop there.">>
         <br><br>
         He does not turn around.
         <br><br>
-        <<chat "Unknown Doctor" "image/avatars/drthorne.gif" "right" "If you're injured, sit against the wall and wait. If you're armed, keep the weapon pointed at the floor. And if you're here to ask whether anyone has seen your friends, ask quietly.">>
+        <<chat "Unknown Doctor" "image/avatars/drthorne.webp" "right" "If you're injured, sit against the wall and wait. If you're armed, keep the weapon pointed at the floor. And if you're here to ask whether anyone has seen your friends, ask quietly.">>
         <br><br>
         The survivor on the cot suddenly convulses. The doctor grabs the patient's shoulder and presses harder against the wound. For several seconds, the only sounds are strained breathing and the faint hum of the emergency lamp. Finally, the patient settles.
         <br><br>
         The man slowly removes his blood-stained gloves and turns toward you.
         <br><br>
-        <<chat "Dr. Thorne" "image/avatars/drthorne.gif" "right" "Dr. Adrian Thorne. I used to work at St. Gabriel's Medical Center. Now I work wherever people are still breathing.">>
+        <<chat "Dr. Thorne" "image/avatars/drthorne.webp" "right" "Dr. Adrian Thorne. I used to work at St. Gabriel's Medical Center. Now I work wherever people are still breathing.">>
     <</if>>
 
     <<set $thorne_met to true>>
@@ -109,42 +109,42 @@
     <br><br>
 
     <<if $thorne_topic_patient>>
-        <<chat "Dr. Thorne" "image/avatars/drthorne.gif" "right" "The patient on that cot has a deep wound and a fever. I can keep him stable for now, but 'for now' is doing a lot of work.">>
+        <<chat "Dr. Thorne" "image/avatars/drthorne.webp" "right" "The patient on that cot has a deep wound and a fever. I can keep him stable for now, but 'for now' is doing a lot of work.">>
         <br><br>
         He places the forceps on the tray.
         <br><br>
-        <<chat "Dr. Thorne" "image/avatars/drthorne.gif" "right" "People think the worst part is the wound. It usually isn't. Infection is quieter. It waits until everyone believes the danger has passed.">>
+        <<chat "Dr. Thorne" "image/avatars/drthorne.webp" "right" "People think the worst part is the wound. It usually isn't. Infection is quieter. It waits until everyone believes the danger has passed.">>
         <br><br>
     <</if>>
 
     <<if $thorne_topic_school>>
-        <<chat "Dr. Thorne" "image/avatars/drthorne.gif" "right" "The school had generators, running water, and enough classrooms to separate the sick from everyone else. That made it useful.">>
+        <<chat "Dr. Thorne" "image/avatars/drthorne.webp" "right" "The school had generators, running water, and enough classrooms to separate the sick from everyone else. That made it useful.">>
         <br><br>
         He glances toward the occupied cots.
         <br><br>
-        <<chat "Dr. Thorne" "image/avatars/drthorne.gif" "right" "Then the roads closed. Supplies stopped arriving. Useful became desperate.">>
+        <<chat "Dr. Thorne" "image/avatars/drthorne.webp" "right" "Then the roads closed. Supplies stopped arriving. Useful became desperate.">>
         <br><br>
     <</if>>
 
     <<if $thorne_help_offer>>
-        <<chat "Dr. Thorne" "image/avatars/drthorne.gif" "right" "Help? Yes. I need help. But I don't need another person standing in the doorway telling me they're willing.">>
+        <<chat "Dr. Thorne" "image/avatars/drthorne.webp" "right" "Help? Yes. I need help. But I don't need another person standing in the doorway telling me they're willing.">>
         <br><br>
         He opens a metal tray. Inside are a few used instruments, two empty medicine packets, and a roll of tape.
         <br><br>
-        <<chat "Dr. Thorne" "image/avatars/drthorne.gif" "right" "I need supplies. Clean bandages. Antibiotics. Painkillers. Anything that can keep an injury from becoming a death sentence.">>
+        <<chat "Dr. Thorne" "image/avatars/drthorne.webp" "right" "I need supplies. Clean bandages. Antibiotics. Painkillers. Anything that can keep an injury from becoming a death sentence.">>
         <br><br>
         He studies you for a moment.
         <br><br>
-        <<chat "Dr. Thorne" "image/avatars/drthorne.gif" "right" "Bring me something useful, and I'll remember that you came back.">>
+        <<chat "Dr. Thorne" "image/avatars/drthorne.webp" "right" "Bring me something useful, and I'll remember that you came back.">>
         <br><br>
     <</if>>
 
     <<if $thorne_quest_active>>
-        <<chat "Dr. Thorne" "image/avatars/drthorne.gif" "right" "You're still looking for supplies. Good. Don't take unnecessary risks, but don't come back empty-handed either.">>
+        <<chat "Dr. Thorne" "image/avatars/drthorne.webp" "right" "You're still looking for supplies. Good. Don't take unnecessary risks, but don't come back empty-handed either.">>
         <br><br>
         He gestures toward the occupied cots.
         <br><br>
-        <<chat "Dr. Thorne" "image/avatars/drthorne.gif" "right" "Every hour matters to someone in this room.">>
+        <<chat "Dr. Thorne" "image/avatars/drthorne.webp" "right" "Every hour matters to someone in this room.">>
         <br><br>
 
     <<elseif $thorne_help_offer>>
@@ -223,25 +223,25 @@
     <br><br>
     When he notices you, his expression softens slightly.
     <br><br>
-    <<chat "Dr. Thorne" "image/avatars/drthorne.gif" "right" "You came back. And you brought what we needed.">>
+    <<chat "Dr. Thorne" "image/avatars/drthorne.webp" "right" "You came back. And you brought what we needed.">>
     <br><br>
     He closes one of the containers.
     <br><br>
-    <<chat "Dr. Thorne" "image/avatars/drthorne.gif" "right" "The patient from Cot Four is stable. He may even keep the leg. That's more than I was prepared to promise earlier.">>
+    <<chat "Dr. Thorne" "image/avatars/drthorne.webp" "right" "The patient from Cot Four is stable. He may even keep the leg. That's more than I was prepared to promise earlier.">>
     <br><br>
     Thorne looks across the room at the survivors resting on the cots.
     <br><br>
-    <<chat "Dr. Thorne" "image/avatars/drthorne.gif" "right" "You didn't just bring medicine. You bought these people time. Around here, time is worth more than almost anything.">>
+    <<chat "Dr. Thorne" "image/avatars/drthorne.webp" "right" "You didn't just bring medicine. You bought these people time. Around here, time is worth more than almost anything.">>
     <br><br>
 
     <<if not $thorne_thanks_seen>>
         <<set $thorne_thanks_seen to true>>
         He reaches beneath the treatment table and places a compact medical kit beside you.
         <br><br>
-        <<chat "Dr. Thorne" "image/avatars/drthorne.gif" "right" "From now on, if you're hurt, come here. I won't promise miracles. I can promise I'll try.">>
+        <<chat "Dr. Thorne" "image/avatars/drthorne.webp" "right" "From now on, if you're hurt, come here. I won't promise miracles. I can promise I'll try.">>
         <br><br>
     <<else>>
-        <<chat "Dr. Thorne" "image/avatars/drthorne.gif" "right" "Try not to make a habit of needing me. But if you do, the infirmary is open.">>
+        <<chat "Dr. Thorne" "image/avatars/drthorne.webp" "right" "Try not to make a habit of needing me. But if you do, the infirmary is open.">>
         <br><br>
     <</if>>
 
@@ -275,11 +275,11 @@
             </button>
         </div>
     <<else>>
-        <<chat "Dr. Thorne" "image/avatars/drthorne.gif" "right" "Better than yesterday. Not all of them are out of danger, but they're alive. That's enough for today.">>
+        <<chat "Dr. Thorne" "image/avatars/drthorne.webp" "right" "Better than yesterday. Not all of them are out of danger, but they're alive. That's enough for today.">>
         <br><br>
         He pauses before returning to his work.
         <br><br>
-        <<chat "Dr. Thorne" "image/avatars/drthorne.gif" "right" "The school remembers who helps. People talk. You've earned more trust here than you may realize.">>
+        <<chat "Dr. Thorne" "image/avatars/drthorne.webp" "right" "The school remembers who helps. People talk. You've earned more trust here than you may realize.">>
         <br><br>
     <</if>>
 <</if>>

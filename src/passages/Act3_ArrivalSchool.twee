@@ -52,9 +52,9 @@
 
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
             <<if _arrivedLate>>
-                <img src="image/Act3_Timberline/exterior_morning.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act3_Timberline/exterior_morning.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             <<else>>
-                <img src="image/Act3_Timberline/exterior_night.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act3_Timberline/exterior_night.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             <</if>>
         </div>
 
@@ -79,11 +79,11 @@
                        ----------------------------------------------------- */
                     Before you can react, Reyes opens the passenger door and steps out into the light. She raises her police badge high.
                     <br><br>
-                    <<chat "Reyes" "image/avatars/reyes.gif" "right" "Stand down! It's Deputy Reyes! I've got survivors with me. Open the damn gate!">>
+                    <<chat "Reyes" "image/avatars/reyes.webp" "right" "Stand down! It's Deputy Reyes! I've got survivors with me. Open the damn gate!">>
                     <br><br>
                     The tension instantly evaporates. The rifles lower. A heavy chain rattles, and the massive steel gate slowly drags open.
                     <br><br>
-                    <<chat "Reyes" "image/avatars/reyes.gif" "right" "Drive through. Park near the foyer. I'll handle the intake.">>
+                    <<chat "Reyes" "image/avatars/reyes.webp" "right" "Drive through. Park near the foyer. I'll handle the intake.">>
 
                     <div class="choice-menu" style="margin-top:20px;">
                         <button style="border-left-color: var(--accent-blue) !important;">
@@ -134,18 +134,18 @@
         </div>
 
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-            <img src="image/Act3_Timberline/screening.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+            <img src="image/Act3_Timberline/screening.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
         </div>
 
         <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-gold); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
             <span id="vn-phase2">
                 You are brought into what used to be a generic utility classroom. Now, it's a sterile intake zone. A grizzled, exhausted man with a military buzzcut stands behind a foldable table covered in weapons. 
                 <br><br>
-                <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "I'm Sergeant Vance, Quartermaster. Welcome to Timberline. If you want to stay, you follow the rules. Rule number one: No civilian carries primary firearms inside the perimeter.">>
+                <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "I'm Sergeant Vance, Quartermaster. Welcome to Timberline. If you want to stay, you follow the rules. Rule number one: No civilian carries primary firearms inside the perimeter.">>
                 <br><br>
                 He points a thick finger at your gear. 
                 <br><br>
-                <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "Hand over the long guns and the heavy ordinance. You'll get a receipt. You can check them out when you go on patrol. But in here, you're unarmed.">>
+                <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "Hand over the long guns and the heavy ordinance. You'll get a receipt. You can check them out when you go on patrol. But in here, you're unarmed.">>
                 <br><br>
                 <<if $companion_reyes>>
                     Reyes gives you a subtle nod. She has to surrender her shotgun too.
@@ -226,9 +226,9 @@
                 <</if>>
 
                 <<if $companion_reyes>>
-                    <<chat "Reyes" "image/avatars/reyes.gif" "right" "I'm going upstairs to brief the Commander. Sit tight. Stay out of trouble. I'll come get you when they're ready to see you.">>
+                    <<chat "Reyes" "image/avatars/reyes.webp" "right" "I'm going upstairs to brief the Commander. Sit tight. Stay out of trouble. I'll come get you when they're ready to see you.">>
                 <<else>>
-                    <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.gif" "right" "The Commander is dealing with a crisis on the 1st Floor right now. You wait down here. Canteen is down the hall. Infirmary is across the foyer. Don't make me hunt you down.">>
+                    <<chat "Sgt. Vance" "image/avatars/quartermaster_sgtvance.webp" "right" "The Commander is dealing with a crisis on the 1st Floor right now. You wait down here. Canteen is down the hall. Infirmary is across the foyer. Don't make me hunt you down.">>
                 <</if>>
                 <br><br>
                 The heavy metal doors click open. You step out into the sprawling, fortified highschool. You made it. You are safe. For now.

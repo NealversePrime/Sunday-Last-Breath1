@@ -51,7 +51,7 @@
             
             <!-- IMAGE: ZOMBIE THUMPING HEAD (FAR) -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-                <img src="image/act1/F2_1_thump.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/act1/F2_1_thump.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
 
             <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -61,7 +61,7 @@
                     <br><br>
                     You try to steady your breathing. 
                     <br><br>
-                    <<chat "You" "image/avatars/player.gif" "left" "It's just a riot. Mass hysteria. People just panicking over the news. I just need to get out of this building.">>
+                    <<chat "You" "image/avatars/player.webp" "left" "It's just a riot. Mass hysteria. People just panicking over the news. I just need to get out of this building.">>
                     
                     <div class="choice-menu" style="margin-top:20px;">
                         <button style="border-left-color: var(--accent-blue) !important; background: rgba(255,255,255,0.05);">
@@ -71,7 +71,7 @@
                                     <br><br>
                                     Rhythmic, wet <i>*thumps*</i> echo through the silence as he repeatedly taps his head against the plaster.
                                     <br><br>
-                                    <<chat "You" "image/avatars/player.gif" "left" "Drugs? Shock? Mental illness? Who knows... but that noise is really unsettling.">>
+                                    <<chat "You" "image/avatars/player.webp" "left" "Drugs? Shock? Mental illness? Who knows... but that noise is really unsettling.">>
                                     <br>
                                     You wonder. You aren't sure if he's even aware of you yet. Maybe he's just a guy having a breakdown. Maybe he needs help. But maybe... maybe he's something else entirely.
                                     
@@ -110,7 +110,7 @@
 
             <!-- IMAGE: ZOMBIE SPRINTING (FAR) -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid var(--accent-red); overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(138, 28, 28, 0.8);">
-                <img src="image/act1/F2_1_aggro.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/act1/F2_1_aggro.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
 
             <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-red); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -197,7 +197,7 @@
 
             <!-- IMAGE: ZOMBIE LUNGE (CLOSE) -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid var(--accent-red); overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(138, 28, 28, 0.8);">
-                <img src="image/act1/F2_2_lunge.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/act1/F2_2_lunge.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
 
             <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-red); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -205,7 +205,7 @@
                 <span id="vn-text-approach">
                     You take a slow step forward. The floorboards groan under your weight, but the man doesn't react. You approach cautiously.
                     <br><br>
-                    <<chat "You" "image/avatars/player.gif" "left" "Hey... Buddy? Are you okay? The building isn't safe, we need to—">>
+                    <<chat "You" "image/avatars/player.webp" "left" "Hey... Buddy? Are you okay? The building isn't safe, we need to—">>
                     <br>
                     The tapping stops.
                     
@@ -294,7 +294,7 @@
 
             <!-- IMAGE: ZOMBIE LUNGE (AGAIN, STILL CLOSE) -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid var(--accent-red); overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(138, 28, 28, 0.8);">
-                <img src="image/act1/F2_2_lunge.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/act1/F2_2_lunge.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
 
             <<if not $f2_lunge_played>>
@@ -308,7 +308,7 @@
                     <br><br>
                     Pure fight-or-flight takes over. You plant your feet and catch him by the shoulders. His skin feels ice-cold and unnaturally greasy. 
                     <br><br>
-                    <<chat "You" "image/avatars/player.gif" "left" "Get the hell off me!">>
+                    <<chat "You" "image/avatars/player.webp" "left" "Get the hell off me!">>
                     <br>
                     You shove him back with everything you have. He stumbles into the wall, giving you precious seconds to draw your weapon!
                 <<else>>
@@ -348,7 +348,7 @@
 
             <!-- IMAGE: TACKLED ON THE FLOOR -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid var(--accent-red); overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(138, 28, 28, 0.8);">
-                <img src="image/act1/F2_3_tackle.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9) hue-rotate(330deg);">
+                <img src="image/act1/F2_3_tackle.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9) hue-rotate(330deg);">
             </div>
 
             <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-red); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -408,7 +408,7 @@
 
             <!-- IMAGE: TACKLED ON THE FLOOR -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid var(--accent-red); overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(138, 28, 28, 0.8);">
-                <img src="image/act1/F2_3_tackle.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9) hue-rotate(330deg);">
+                <img src="image/act1/F2_3_tackle.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9) hue-rotate(330deg);">
             </div>
 
             <<run setup.sound.stop("pinned_snarl")>>
@@ -458,7 +458,7 @@
                     
                     <!-- IMAGE: ZOMBIE LUNGE IN COMBAT -->
                     <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 15px;">
-                        <img src="image/act1/F2_2_lunge.gif" style="height: 180px; filter: drop-shadow(0px 0px 8px rgba(255,0,0,0.6)); border: 1px solid #8a1c1c;">
+                        <img src="image/act1/F2_2_lunge.webp" style="height: 180px; filter: drop-shadow(0px 0px 8px rgba(255,0,0,0.6)); border: 1px solid #8a1c1c;">
                     </div>
                     
                     <h3 style="color:var(--accent-red); margin-top:0;">ENEMIES REMAINING: <<print $horde.length>></h3>
@@ -513,7 +513,7 @@
 
                 <!-- IMAGE: DEAD ZOMBIE -->
                 <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-                    <img src="image/act1/F2_4_dead.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                    <img src="image/act1/F2_4_dead.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
                 </div>
 
                 <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -526,11 +526,11 @@
                             <button style="border-left-color: var(--accent-blue) !important; background: rgba(255,255,255,0.05);">
                                 <<link "Next ▼">>
                                     <<replace "#vn-text-dead">>
-                                        <<chat "You" "image/avatars/player.gif" "left" "What just happened? Did I just... did I just kill someone?">>
+                                        <<chat "You" "image/avatars/player.webp" "left" "What just happened? Did I just... did I just kill someone?">>
                                         <br>
                                         You stare down at the ruined face, the milky eyes.
                                         <br><br>
-                                        <<chat "You" "image/avatars/player.gif" "left" "No... that wasn't a person anymore. It couldn't be.">>
+                                        <<chat "You" "image/avatars/player.webp" "left" "No... that wasn't a person anymore. It couldn't be.">>
                                         <br>
                                         You don't know what the hell is actually going on outside, but the hallway stretches on, dark and silent. You can't stay here.
                                         
@@ -568,7 +568,7 @@
 
             <!-- IMAGE: EXIT DOOR -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-                <img src="image/act1/F2_5_exit.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/act1/F2_5_exit.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
 
             <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -582,7 +582,7 @@
                         <button style="border-left-color: var(--accent-blue) !important; background: rgba(255,255,255,0.05);">
                             <<link "Next ▼">>
                                 <<replace "#vn-text-exit">>
-                                    <<chat "You" "image/avatars/player.gif" "left" "Gunfire... The police must be down there. They have to be holding it together. If I can just get to them, I'll be safe.">>
+                                    <<chat "You" "image/avatars/player.webp" "left" "Gunfire... The police must be down there. They have to be holding it together. If I can just get to them, I'll be safe.">>
 
                                     <div class="choice-menu" style="margin-top:20px;">
                                         

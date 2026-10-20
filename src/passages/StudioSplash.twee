@@ -1,6 +1,6 @@
 :: StudioSplash [splash-screen] {"position":"300,100"}
 <div class="studio-splash-container">
-    <img src="image/studio_logo.gif" class="splash-logo">
+    <img src="image/studio_logo.webp" class="splash-logo">
     <h3 class="splash-presents">P R E S E N T S</h3>
 </div>
 

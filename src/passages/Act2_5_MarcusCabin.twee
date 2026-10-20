@@ -25,7 +25,7 @@
             /* --- 1. VISUALS (GAMBAR KEDATANGAN AWAL) --- */
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
                 <!-- ID ditambahkan di sini agar bisa di-swap oleh tombol Next -->
-                <img id="cabin-scene-img" src="image/Act2_5/Cabin_Arrival.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img id="cabin-scene-img" src="image/Act2_5/Cabin_Arrival.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
 
             <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-red); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -42,7 +42,7 @@
                                 <<run $(".vn-dialogue-box").scrollTop(0)>>
                                 
                                 <!-- IMAGE SWAP TO STANDOFF -->
-                                <<run $("#cabin-scene-img").attr("src", "image/Act2_5/Cabin_Standoff.gif")>>
+                                <<run $("#cabin-scene-img").attr("src", "image/Act2_5/Cabin_Standoff.webp")>>
                                 
                                 <<replace "#vn-text-standoff">>
                                     /* THE FIX: Stop audio stuttering on re-renders */
@@ -61,7 +61,7 @@
                                     <<if $vane_status == "joined">>
                                         Vane steps out of the passenger side, his hands immediately shooting up into the air. 
                                         <br><br>
-                                        <<chat "Vane" "image/avatars/vane.gif" "right" "Whoa! Hey, we're not infected! We're just people!">>
+                                        <<chat "Vane" "image/avatars/vane.webp" "right" "Whoa! Hey, we're not infected! We're just people!">>
                                         <br>
                                         <span style="color:var(--accent-gold);">"I don't care what you are,"</span> she snaps back. <span style="color:var(--accent-gold);">"Where is Marcus? He's the only one who knows about this place. Who are you?"</span>
                                     <<else>>
@@ -78,15 +78,15 @@
                                                     /* --- 3. DYNAMIC HUMANITY MONOLOGUE --- */
                                                     <<if $hum >= 70>>
                                                         <i>She's standing out in the freezing rain, gripping that rifle like a lifeline. You know exactly who she is waiting for, and the realization makes your chest ache.</i><br>
-                                                        <<chat "You" "image/avatars/player.gif" "left" "Diane, please. Lower the gun," you say, keeping your voice as calm and gentle as possible. "I came from the Ascott. I have news about Marcus.">>
+                                                        <<chat "You" "image/avatars/player.webp" "left" "Diane, please. Lower the gun," you say, keeping your voice as calm and gentle as possible. "I came from the Ascott. I have news about Marcus.">>
                                                     
                                                     <<elseif $hum >= 31>>
                                                         <i>Her hands are shaking, but the barrel of the rifle is dead steady. You slowly raise your hands higher, making sure you don't make any sudden movements.</i><br>
-                                                        <<chat "You" "image/avatars/player.gif" "left" "Easy. My name is <<print $firstName>>," you say slowly over the sound of the rain. "I'm not infected. Marcus isn't with me... but I was in his apartment. We need to talk.">>
+                                                        <<chat "You" "image/avatars/player.webp" "left" "Easy. My name is <<print $firstName>>," you say slowly over the sound of the rain. "I'm not infected. Marcus isn't with me... but I was in his apartment. We need to talk.">>
                                                     
                                                     <<else>>
                                                         <i>Her finger is twitching on the trigger. You are freezing, exhausted, and completely out of patience to sugarcoat things while staring down the barrel of a gun.</i><br>
-                                                        <<chat "You" "image/avatars/player.gif" "left" "Look, if you're going to shoot me, just do it," you snap, squinting through the rain. "Otherwise, put the gun down. Marcus isn't coming.">>
+                                                        <<chat "You" "image/avatars/player.webp" "left" "Look, if you're going to shoot me, just do it," you snap, squinting through the rain. "Otherwise, put the gun down. Marcus isn't coming.">>
                                                     <</if>>
 
                                                     <div class="choice-menu" style="margin-top:20px;">
@@ -185,7 +185,7 @@
 
             <!-- GAMBAR DIANE HANCUR DI TERAS -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-                <img id="cabin-scene-img" src="image/Act2_5/Diane_Grief.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img id="cabin-scene-img" src="image/Act2_5/Diane_Grief.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
 
             <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -199,19 +199,19 @@
                         She knows what this means. She doesn't scream. She doesn't wail. She just falls to her knees on the hard wood, clutching the item to her chest as the freezing rain washes over her. He died protecting them.
 
                     <<elseif $diane_state == "truth_guess">>
-                        <<chat "You" "image/avatars/player.gif" "left" "I was in his apartment. His gun safe was empty. He geared up to come here... but he never made it out of the building. I'm so sorry.">>
+                        <<chat "You" "image/avatars/player.webp" "left" "I was in his apartment. His gun safe was empty. He geared up to come here... but he never made it out of the building. I'm so sorry.">>
                         <br>
                         Her grip on the rifle falters. She stares at you, processing the information. The reality of it crashes over her in a wave. If he had his gear and he isn't here yet, he isn't coming. 
                         <br><br>
                         The weapon slips from her hands, clattering onto the wooden floorboards. She falls to her knees, completely broken.
 
                     <<elseif $diane_state == "lie">>
-                        <<chat "You" "image/avatars/player.gif" "left" "He's alive," you lie, your voice smooth and steady. "He got caught behind a military barricade trying to get out of the city. He told me to come here. He told me to tell you to wait for him.">>
+                        <<chat "You" "image/avatars/player.webp" "left" "He's alive," you lie, your voice smooth and steady. "He got caught behind a military barricade trying to get out of the city. He told me to come here. He told me to tell you to wait for him.">>
                         <br>
                         She lowers the rifle, a desperate, shuddering breath escaping her lips. <span style="color:var(--accent-gold);">"He's coming... okay. Okay."</span> She leans against the porch pillar, letting the rain hide her tears of relief.
 
                     <<elseif $diane_state == "cold">>
-                        <<chat "You" "image/avatars/player.gif" "left" "I was in his apartment. He was bitten before he could even leave. He's dead.">>
+                        <<chat "You" "image/avatars/player.webp" "left" "I was in his apartment. He was bitten before he could even leave. He's dead.">>
                         <br>
                         You drop the harsh truth on her like an anvil. She stares at you, horrified. The hunting rifle slips from her trembling fingers and hits the floorboards. She collapses against the porch railing, hyperventilating. 
                         
@@ -232,7 +232,7 @@
                                 <<run $(".vn-dialogue-box").scrollTop(0)>>
                                 
                                 /* IMAGE & HEADER SWAP MAGIC */
-                                <<run $("#cabin-scene-img").attr("src", "image/Act2_5/Cabin_Interior.gif")>>
+                                <<run $("#cabin-scene-img").attr("src", "image/Act2_5/Cabin_Interior.webp")>>
                                 <<replace "#cabin-header-text">>THE CABIN — INTERIOR<</replace>>
                                 
                                 <<replace "#vn-text-interior">>
@@ -251,7 +251,7 @@
                                         <br><br>
                                         Vane kneels down near the fire, a respectful distance from the kids. He pulls a quarter from his pocket. 
                                         <br><br>
-                                        <<chat "Vane" "image/avatars/vane.gif" "right" "Hey guys. You want to see a magic trick?">>
+                                        <<chat "Vane" "image/avatars/vane.webp" "right" "Hey guys. You want to see a magic trick?">>
                                         <br>
                                         Within minutes, he has them distracted, pulling the coin from behind their ears, giving Diane the quiet space she desperately needs to process the end of her world.
                                     <</if>>
@@ -330,7 +330,7 @@
 
             <!-- GAMBAR PAGI HARI -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-                <img src="image/Act2_5/Cabin_Morning.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act2_5/Cabin_Morning.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
 
             /* THE FIX: Stop infinite time skipping and lore farming */

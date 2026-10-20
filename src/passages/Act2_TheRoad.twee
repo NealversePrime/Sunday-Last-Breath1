@@ -31,7 +31,7 @@
             </div>
             
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-                <img src="image/Act2Street/burning_city_mirror.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act2Street/burning_city_mirror.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
 
             <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -65,18 +65,18 @@
                                 ================================================================= */
                                 <<if $vane_status == "joined">>
                                     <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-                                        <img src="image/Act2Street/vane_passenger.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                                        <img src="image/Act2Street/vane_passenger.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
                                     </div>
                                     
                                     <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
                                         <span id="vn-text-vane">
                                             <span style="color:var(--accent-blue);">Vane</span> is in the passenger seat. The adrenaline that carried him through the lobby and the parking lot is finally crashing. He rests his forehead against the cool glass of the window, his eyes closed. 
                                             <br><br>
-                                            <<chat "Vane" "image/avatars/vane.gif" "right" "I didn't think we were getting out of that lobby. I really didn't.">>
+                                            <<chat "Vane" "image/avatars/vane.webp" "right" "I didn't think we were getting out of that lobby. I really didn't.">>
                                             <br>
                                             He opens his eyes, staring blankly at the passing, burning ruins of the city. He lets out a dry, humorless laugh.
                                             <br><br>
-                                            <<chat "Vane" "image/avatars/vane.gif" "right" "My entire life was sponsorships, unboxing videos, aesthetic lighting... None of that prepared me for bludgeoning someone's skull in with a Pelican camera case.">>
+                                            <<chat "Vane" "image/avatars/vane.webp" "right" "My entire life was sponsorships, unboxing videos, aesthetic lighting... None of that prepared me for bludgeoning someone's skull in with a Pelican camera case.">>
                                             
                                             <div class="choice-menu" style="margin-top:20px;">
                                                 <button style="border-left-color: var(--accent-blue) !important; background: rgba(255,255,255,0.05);">
@@ -87,11 +87,11 @@
                                                         <<replace "#vn-text-vane">>
                                                             He takes a slow, shuddering breath, then turns to look at you. The fear is still there, but now there's a desperate need for direction. 
                                                             <br><br>
-                                                            <<chat "Vane" "image/avatars/vane.gif" "right" "I don't have anywhere to go. My family and I... we haven't spoken since I moved to the city to do my own thing.">>
+                                                            <<chat "Vane" "image/avatars/vane.webp" "right" "I don't have anywhere to go. My family and I... we haven't spoken since I moved to the city to do my own thing.">>
                                                             <br>
                                                             He traces the frayed edge of his ruined designer jacket. 
                                                             <br><br>
-                                                            <<chat "Vane" "image/avatars/vane.gif" "right" "My entire world was on a screen, and the internet is dead. I was just running to run. Where are we going?">>
+                                                            <<chat "Vane" "image/avatars/vane.webp" "right" "My entire world was on a screen, and the internet is dead. I was just running to run. Where are we going?">>
                                                             <br><br>
                                                             To keep your hands from shaking, you force your mind to focus on a single point. You need a destination. You need a reason to keep the car on the road.
                                                             
@@ -108,7 +108,7 @@
                                 ================================================================= */
                                 <<else>>
                                     <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-                                        <img src="image/Act2Street/empty_passenger_seat.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                                        <img src="image/Act2Street/empty_passenger_seat.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
                                     </div>
                                     
                                     <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">

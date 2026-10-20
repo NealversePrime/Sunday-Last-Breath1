@@ -24,7 +24,7 @@
 
         /* --- VISUALS --- */
         <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-            <img src="image/Act3/crossroads_fog.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+            <img src="image/Act3/crossroads_fog.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
         </div>
 
         <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-gold); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -51,7 +51,7 @@
 
                                     <!-- SUBSTATION INTEL -->
                                     <div class="crisis-card" style="background: rgba(138,28,28,0.1); border: 1px solid #333; padding: 10px;">
-                                        <img src="image/Act3/substation_exterior.gif" style="width: 100%; height: 120px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
+                                        <img src="image/Act3/substation_exterior.webp" style="width: 100%; height: 120px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
                                         <b style="color:var(--accent-red); font-size:0.9em; display:block; text-align:center;">LEFT: SUBSTATION 4</b>
                                         <hr style="border-color:#222; margin: 8px 0;">
                                         <div style="font-size:0.85em; color:#bbb;">
@@ -70,9 +70,9 @@
                                     <!-- SUBURBAN HOME INTEL -->
                                     <div class="crisis-card" style="background: rgba(0,40,60,0.2); border: 1px solid #333; padding: 10px;">
                                         <<if _arrivedLate>>
-                                            <img src="image/Act3/suburban_house_morning.gif" style="width: 100%; height: 120px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
+                                            <img src="image/Act3/suburban_house_morning.webp" style="width: 100%; height: 120px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
                                         <<else>>
-                                            <img src="image/Act3/suburban_house_night.gif" style="width: 100%; height: 120px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
+                                            <img src="image/Act3/suburban_house_night.webp" style="width: 100%; height: 120px; object-fit: cover; border: 1px solid #222; margin-bottom: 10px;">
                                         <</if>>
                                         <b style="color:var(--accent-blue); font-size:0.9em; display:block; text-align:center;">RIGHT: COLONIAL HOME</b>
                                         <hr style="border-color:#222; margin: 8px 0;">
@@ -104,9 +104,9 @@
                                                     Vane pulls his jacket tighter around his slender shoulders, adjusting his glasses nervously.
                                                     <br><br>
                                                     <<if _arrivedLate>>
-                                                        <<chat "Vane" "image/avatars/vane.gif" "right" "U-um... so the station is dead quiet. If the generator ran out of fuel, that means the digital keypads to their weapon lockers are dead too. We're going to have to smash our way in to get gear. That makes noise.">>
+                                                        <<chat "Vane" "image/avatars/vane.webp" "right" "U-um... so the station is dead quiet. If the generator ran out of fuel, that means the digital keypads to their weapon lockers are dead too. We're going to have to smash our way in to get gear. That makes noise.">>
                                                     <<else>>
-                                                        <<chat "Vane" "image/avatars/vane.gif" "right" "H-hear that hum? The station's generator is still running. If we can get past those bodies, we might be able to bypass their electronic locks and raid the armory cleanly while the systems are up.">>
+                                                        <<chat "Vane" "image/avatars/vane.webp" "right" "H-hear that hum? The station's generator is still running. If we can get past those bodies, we might be able to bypass their electronic locks and raid the armory cleanly while the systems are up.">>
                                                     <</if>>
                                                     <br>
                                                 <</if>>
@@ -115,9 +115,9 @@
                                                     From the backseat, Maya holds Lily tight against her chest. She looks at the colonial home, her expression purely pragmatical and deeply protective of her niece.
                                                     <br><br>
                                                     <<if _arrivedLate>>
-                                                        <<chat "Maya" "image/avatars/maya.gif" "right" "The candle in the house is out. Whoever is living there has been awake all night; they're probably exhausted and sleeping right now. I'm not dragging a seven-year-old into a loud fight at a police station if we have a quiet option to clear that house.">>
+                                                        <<chat "Maya" "image/avatars/maya.webp" "right" "The candle in the house is out. Whoever is living there has been awake all night; they're probably exhausted and sleeping right now. I'm not dragging a seven-year-old into a loud fight at a police station if we have a quiet option to clear that house.">>
                                                     <<else>>
-                                                        <<chat "Maya" "image/avatars/maya.gif" "right" "Look at that fresh candle glow. Whoever is hiding in that house is awake, paranoid, and holding a gun at the door right now. I'm not risking Lily on a jumpy survivor in the pitch black.">>
+                                                        <<chat "Maya" "image/avatars/maya.webp" "right" "Look at that fresh candle glow. Whoever is hiding in that house is awake, paranoid, and holding a gun at the door right now. I'm not risking Lily on a jumpy survivor in the pitch black.">>
                                                     <</if>>
                                                     <br>
                                                 <</if>>
@@ -126,9 +126,9 @@
                                                     Outside, Diane leans out from the window of her truck. The loss of Marcus has hardened her, and her primary focus remains the twin boys sleeping in her backseat.
                                                     <br><br>
                                                     <<if _arrivedLate>>
-                                                        <<chat "Diane" "image/avatars/diane.gif" "right" "The morning is cold, and their candle is dead. If they're resting, we have the advantage. We should take the house quietly, for the kids' sake. We just need shelter.">>
+                                                        <<chat "Diane" "image/avatars/diane.webp" "right" "The morning is cold, and their candle is dead. If they're resting, we have the advantage. We should take the house quietly, for the kids' sake. We just need shelter.">>
                                                     <<else>>
-                                                        <<chat "Diane" "image/avatars/diane.gif" "right" "That candle is bright. They're awake in the dark. It's a sanctuary, not a loot drop. If we go to the house, we need to approach with our hands up.">>
+                                                        <<chat "Diane" "image/avatars/diane.webp" "right" "That candle is bright. They're awake in the dark. It's a sanctuary, not a loot drop. If we go to the house, we need to approach with our hands up.">>
                                                     <</if>>
                                                     <br>
                                                 <</if>>

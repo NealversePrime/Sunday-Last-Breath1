@@ -26,7 +26,7 @@
 
             /* --- 1. VISUALS --- */
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-                <img src="image/Act2GasStation/GasStation.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act2GasStation/GasStation.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
 
             <div style="background: rgba(0,0,0,0.6); padding: 20px; border-left: 3px solid var(--accent-blue); font-family: 'Courier Prime', monospace; color: #ccc; font-size: 0.95em; line-height: 1.5; margin: 0 auto 25px auto; max-width: 700px; width: 100%; box-sizing: border-box; text-align: left;">
@@ -51,7 +51,7 @@
 
                                         Vane steps out into the rain, pulling his ruined designer jacket tight against the cold. He looks around at the pitch-black tree line, visibly on edge.
                                         <br><br>
-                                        <<chat "Vane" "image/avatars/vane.gif" "right" "I'll handle the pump. You go inside and authorize it. Just... please be fast. I feel like the first guy to die in a low-budget slasher film out here.">>
+                                        <<chat "Vane" "image/avatars/vane.webp" "right" "I'll handle the pump. You go inside and authorize it. Just... please be fast. I feel like the first guy to die in a low-budget slasher film out here.">>
                                         <br>
                                         You nod, stepping out of the car. Vane grabs the fuel nozzle. He's exposed out here, but you need gas.
 
@@ -93,7 +93,7 @@
 
             /* --- 1. VISUALS & AUDIO --- */
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid #333; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);">
-                <img src="image/Act2GasStation/InteriorGasStation.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act2GasStation/InteriorGasStation.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
 
             <<if not $store_entered>>
@@ -432,7 +432,7 @@
 
             <!-- Zombie appearing image -->
             <div style="width: 100%; max-width: 700px; margin: 0 auto 20px auto; border: 2px solid var(--accent-red); overflow: hidden; position: relative; box-shadow: 0 4px 15px rgba(138,28,28,0.5);">
-                <img src="image/Act2GasStation/zombiegasstation.gif" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
+                <img src="image/Act2GasStation/zombiegasstation.webp" style="width: 100%; height: auto; display: block; opacity: 0.9; filter: contrast(1.1) brightness(0.9);">
             </div>
 
             /* --- 1. AUDIO FADEOUT --- */
@@ -495,7 +495,7 @@
                                     <<if $vane_status == "joined">>
                                         Vane jumps, seeing the creature lunging for the door. He drops the fuel nozzle, spilling gasoline across the pavement. 
                                         <br><br>
-                                        <<chat "Vane" "image/avatars/vane.gif" "right" "Get in! Let's go!">>
+                                        <<chat "Vane" "image/avatars/vane.webp" "right" "Get in! Let's go!">>
                                         <br>
                                         You both throw yourselves into the car, slamming the doors shut just as a pale, blood-soaked hand violently slaps the convenience store window.
                                     <<else>>
