@@ -1,4 +1,5 @@
 window.preloadAssets = function(assetList) {
+    if (!assetList || !Array.isArray(assetList)) return;
     assetList.forEach(function(url) {
         if (url.endsWith('.webp') || url.endsWith('.png') || url.endsWith('.jpg')) {
             var img = new Image();
@@ -10,4 +11,6 @@ window.preloadAssets = function(assetList) {
             }
         }
     });
+};
+
 };

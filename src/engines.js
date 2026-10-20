@@ -2884,3 +2884,59 @@ $(document).off('click', '.vn-dialogue-box').on('click', '.vn-dialogue-box', fun
     // 3. Process the click
     window.VNEngine.handleInteraction();
 });
+
+/* ==========================================================================
+   SURVIVOR PDA & ASSET PRELOADER
+   ========================================================================== */
+
+// Function to trigger the PDA Dialog box
+window.openPDA = function() {
+    var pdaPassage = Story.get("PDA_Overlay");
+    if (!pdaPassage) {
+        console.error("PDA_Overlay passage not found!");
+        return;
+    }
+    Dialog.setup("SURVIVOR PDA", "pda-dialog");
+    Dialog.wiki(pdaPassage.text);
+    Dialog.open();
+};
+
+// Prevent default tab behavior (element focus cycling) unless in text inputs
+$(document).on('keydown', function (e) {
+    if (e.key === 'Tab' && !$(e.target).is('input, textarea, select')) {
+        e.preventDefault();
+    }
+});
+
+// Bind the TAB key to open/close the menu instantly
+$(document).on('keyup', function (e) {
+    if (e.key === 'Tab') {
+        if ($(e.target).is('input, textarea, select')) {
+            return;
+        }
+        e.preventDefault();
+        
+        // If a dialog is already open, close it. Otherwise, open the PDA.
+        if ($("#ui-dialog-dialog").is(":visible")) {
+            Dialog.close();
+        } else {
+            window.openPDA();
+        }
+    }
+});
+
+// Asset Preloader helper
+window.preloadAssets = function(assetList) {
+    if (!assetList || !Array.isArray(assetList)) return;
+    assetList.forEach(function(url) {
+        if (url.endsWith('.webp') || url.endsWith('.png') || url.endsWith('.jpg')) {
+            var img = new Image();
+            img.src = url;
+        } else if (url.endsWith('.mp3') || url.endsWith('.ogg')) {
+            // Howler prefetch
+            if (typeof Howl !== 'undefined') {
+                new Howl({ src: [url], preload: true });
+            }
+        }
+    });
+};
